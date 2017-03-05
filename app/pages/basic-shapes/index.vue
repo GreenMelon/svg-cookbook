@@ -43,6 +43,14 @@
                                 route: '/basic-shapes/rectangles/001'
                             }
                         ]
+                    },{
+                        name: '圆',
+                        instances: [
+                            {
+                                name: '基础',
+                                route: '/basic-shapes/circles/001'
+                            }
+                        ]
                     }
                 ]
             }
