@@ -8,6 +8,7 @@ import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
 import Triangles001 from '../pages/basic-shapes/triangles/001';
 import Rectangles001 from '../pages/basic-shapes/rectangles/001';
+import Circles001 from '../pages/basic-shapes/circles/001';
 
 export default [
     {
@@ -30,6 +31,9 @@ export default [
     },{
         path: '/basic-shapes/rectangles/001',
         component: Rectangles001
+    },{
+        path: '/basic-shapes/circles/001',
+        component: Circles001
     },
 
     {
