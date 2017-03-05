@@ -27,6 +27,22 @@
                                 route: '/basic-shapes/lines/001'
                             }
                         ]
+                    },{
+                        name: '三角形',
+                        instances: [
+                            {
+                                name: '基础',
+                                route: '/basic-shapes/triangles/001'
+                            }
+                        ]
+                    },{
+                        name: '矩形',
+                        instances: [
+                            {
+                                name: '基础',
+                                route: '/basic-shapes/rectangles/001'
+                            }
+                        ]
                     }
                 ]
             }
