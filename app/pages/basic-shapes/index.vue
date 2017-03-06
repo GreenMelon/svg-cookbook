@@ -20,7 +20,7 @@
             return {
                 categories: [
                     {
-                        name: '线条',
+                        name: '直线',
                         instances: [
                             {
                                 name: '基础',
@@ -49,6 +49,14 @@
                             {
                                 name: '基础',
                                 route: '/basic-shapes/circles/001'
+                            }
+                        ]
+                    },{
+                        name: '椭圆',
+                        instances: [
+                            {
+                                name: '基础',
+                                route: '/basic-shapes/ellipses/001'
                             }
                         ]
                     }

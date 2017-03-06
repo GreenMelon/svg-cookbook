@@ -9,6 +9,7 @@ import Lines001 from '../pages/basic-shapes/lines/001';
 import Triangles001 from '../pages/basic-shapes/triangles/001';
 import Rectangles001 from '../pages/basic-shapes/rectangles/001';
 import Circles001 from '../pages/basic-shapes/circles/001';
+import Ellipses001 from '../pages/basic-shapes/ellipses/001';
 
 export default [
     {
@@ -34,6 +35,9 @@ export default [
     },{
         path: '/basic-shapes/circles/001',
         component: Circles001
+    },{
+        path: '/basic-shapes/ellipses/001',
+        component: Ellipses001
     },
 
     {
