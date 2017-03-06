@@ -41,6 +41,9 @@
                             {
                                 name: '基础',
                                 route: '/basic-shapes/rectangles/001'
+                            },{
+                                name: '圆角矩形',
+                                route: '/basic-shapes/rectangles/002'
                             }
                         ]
                     },{
