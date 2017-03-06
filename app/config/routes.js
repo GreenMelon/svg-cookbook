@@ -12,6 +12,9 @@ import Rectangles002 from '../pages/basic-shapes/rectangles/002';
 import Circles001 from '../pages/basic-shapes/circles/001';
 import Ellipses001 from '../pages/basic-shapes/ellipses/001';
 
+import DocStruIndex from '../pages/document-structure/index';
+import DocStru001 from '../pages/document-structure/001';
+
 export default [
     {
         path: '/',
@@ -42,6 +45,14 @@ export default [
     },{
         path: '/basic-shapes/ellipses/001',
         component: Ellipses001
+    },
+
+    {
+        path: '/document-structure',
+        component: DocStruIndex
+    },{
+        path: '/document-structure/001',
+        component: DocStru001
     },
 
     {
