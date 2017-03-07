@@ -7,6 +7,7 @@ import Index from '../pages/index/index';
 
 import GettingStartedIndex from '../pages/getting-started/index';
 import ImportByImg from '../pages/getting-started/img';
+import ImportByCss from '../pages/getting-started/css';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
@@ -34,6 +35,9 @@ export default [
     },{
         path: '/getting-started/img',
         component: ImportByImg
+    },{
+        path: '/getting-started/css',
+        component: ImportByCss
     },
 
     {

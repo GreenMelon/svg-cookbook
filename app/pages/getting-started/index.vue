@@ -26,6 +26,9 @@
                                 name: '作为图像引入 <img>',
                                 route: '/getting-started/img'
                             },{
+                                name: 'CSS中包含',
+                                route: '/getting-started/css'
+                            },{
                                 name: '分享：SVG的多种引用方法',
                                 route: 'http://weixin.github.io/resources/slide/cssconf2016/doubleluo/index.html#/3'
                             }
