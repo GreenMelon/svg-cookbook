@@ -4,6 +4,10 @@
 
 import NotFound from '../pages/index/404';
 import Index from '../pages/index/index';
+
+import GettingStartedIndex from '../pages/getting-started/index';
+import ImportByImg from '../pages/getting-started/img';
+
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
 import Triangles001 from '../pages/basic-shapes/triangles/001';
@@ -22,6 +26,14 @@ export default [
     },{
         path: '/index',
         component: Index
+    },
+
+    {
+        path: '/getting-started',
+        component: GettingStartedIndex
+    },{
+        path: '/getting-started/img',
+        component: ImportByImg
     },
 
     {
