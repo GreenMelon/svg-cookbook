@@ -11,6 +11,8 @@ import ImportByCss from '../pages/getting-started/import/css';
 import ImportByObject from '../pages/getting-started/import/object';
 import ImportByEmbed from '../pages/getting-started/import/embed';
 import ForeignObject from '../pages/getting-started/import/foreign-object';
+import InfileSvg from '../pages/getting-started/import/infile-svg';
+import XSLFO from '../pages/getting-started/import/XSL-FO';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
@@ -50,6 +52,12 @@ export default [
     },{
         path: '/getting-started/import/foreign-object',
         component: ForeignObject
+    },{
+        path: '/getting-started/import/infile-svg',
+        component: InfileSvg
+    },{
+        path: '/getting-started/import/XSL-FO',
+        component: XSLFO
     },
 
     {
