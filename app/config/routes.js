@@ -10,6 +10,7 @@ import ImportByImg from '../pages/getting-started/import/img';
 import ImportByCss from '../pages/getting-started/import/css';
 import ImportByObject from '../pages/getting-started/import/object';
 import ImportByEmbed from '../pages/getting-started/import/embed';
+import ForeignObject from '../pages/getting-started/import/foreign-object';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
@@ -46,6 +47,9 @@ export default [
     },{
         path: '/getting-started/import/embed',
         component: ImportByEmbed
+    },{
+        path: '/getting-started/import/foreign-object',
+        component: ForeignObject
     },
 
     {
