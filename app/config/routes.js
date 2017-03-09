@@ -14,6 +14,9 @@ import ForeignObject from '../pages/getting-started/import/foreign-object';
 import InfileSvg from '../pages/getting-started/import/infile-svg';
 import XSLFO from '../pages/getting-started/import/XSL-FO';
 
+import CoordinatesIndex from '../pages/coordinates/index';
+import CoordinatesConcept from '../pages/coordinates/concept';
+
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
 import Triangles001 from '../pages/basic-shapes/triangles/001';
@@ -58,6 +61,14 @@ export default [
     },{
         path: '/getting-started/import/XSL-FO',
         component: XSLFO
+    },
+
+    {
+        path: '/coordinates',
+        component: CoordinatesIndex
+    },{
+        path: '/coordinates/concept',
+        component: CoordinatesConcept
     },
 
     {
