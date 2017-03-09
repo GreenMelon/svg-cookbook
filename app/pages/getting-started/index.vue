@@ -29,6 +29,9 @@
                                 name: 'CSS中包含',
                                 route: '/getting-started/css'
                             },{
+                                name: '嵌入对象 <object>',
+                                route: '/getting-started/object'
+                            },{
                                 name: '分享：SVG的多种引用方法',
                                 route: 'http://weixin.github.io/resources/slide/cssconf2016/doubleluo/index.html#/3'
                             }
