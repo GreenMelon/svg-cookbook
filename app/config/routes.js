@@ -6,9 +6,10 @@ import NotFound from '../pages/index/404';
 import Index from '../pages/index/index';
 
 import GettingStartedIndex from '../pages/getting-started/index';
-import ImportByImg from '../pages/getting-started/img';
-import ImportByCss from '../pages/getting-started/css';
-import ImportByObject from '../pages/getting-started/object';
+import ImportByImg from '../pages/getting-started/import/img';
+import ImportByCss from '../pages/getting-started/import/css';
+import ImportByObject from '../pages/getting-started/import/object';
+import ImportByEmbed from '../pages/getting-started/import/embed';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
@@ -34,14 +35,17 @@ export default [
         path: '/getting-started',
         component: GettingStartedIndex
     },{
-        path: '/getting-started/img',
+        path: '/getting-started/import/img',
         component: ImportByImg
     },{
-        path: '/getting-started/css',
+        path: '/getting-started/import/css',
         component: ImportByCss
     },{
-        path: '/getting-started/object',
+        path: '/getting-started/import/object',
         component: ImportByObject
+    },{
+        path: '/getting-started/import/embed',
+        component: ImportByEmbed
     },
 
     {

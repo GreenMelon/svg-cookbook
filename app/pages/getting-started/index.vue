@@ -24,13 +24,16 @@
                         instances: [
                             {
                                 name: '作为图像引入 <img>',
-                                route: '/getting-started/img'
+                                route: '/getting-started/import/img'
                             },{
                                 name: 'CSS中包含',
-                                route: '/getting-started/css'
+                                route: '/getting-started/import/css'
                             },{
                                 name: '嵌入对象 <object>',
-                                route: '/getting-started/object'
+                                route: '/getting-started/import/object'
+                            },{
+                                name: '嵌入对象 <embed>',
+                                route: '/getting-started/import/embed'
                             },{
                                 name: '分享：SVG的多种引用方法',
                                 route: 'http://weixin.github.io/resources/slide/cssconf2016/doubleluo/index.html#/3'
