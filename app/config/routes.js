@@ -16,6 +16,7 @@ import XSLFO from '../pages/getting-started/import/XSL-FO';
 
 import CoordinatesIndex from '../pages/coordinates/index';
 import CoordinatesConcept from '../pages/coordinates/concept';
+import PreserveAspectRatio from '../pages/coordinates/preserve-aspect-ratio';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
 import Lines001 from '../pages/basic-shapes/lines/001';
@@ -69,6 +70,9 @@ export default [
     },{
         path: '/coordinates/concept',
         component: CoordinatesConcept
+    },{
+        path: '/coordinates/preserve-aspect-ratio',
+        component: PreserveAspectRatio
     },
 
     {
