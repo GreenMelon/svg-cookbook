@@ -25,6 +25,9 @@
                             {
                                 name: '概念',
                                 route: '/coordinates/concept'
+                            },{
+                                name: '保留宽高比',
+                                route: '/coordinates/preserve-aspect-ratio'
                             }
                         ]
                     }
