@@ -62,6 +62,23 @@
                                 route: '/basic-shapes/ellipses/001'
                             }
                         ]
+                    },{
+                        name: '笔画特性',
+                        instances: [
+                            {
+                                name: '笔画宽度',
+                                route: '/basic-shapes/stroke/width'
+                            },{
+                                name: '笔画颜色',
+                                route: '/basic-shapes/stroke/color'
+                            },{
+                                name: '点线与虚线',
+                                route: '/basic-shapes/stroke/dasharray'
+                            },{
+                                name: '锯齿与反锯齿',
+                                route: '/basic-shapes/stroke/shape-rendering'
+                            }
+                        ]
                     }
                 ]
             }
