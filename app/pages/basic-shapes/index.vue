@@ -96,6 +96,9 @@
                             },{
                                 name: '头尾形状',
                                 route: '/basic-shapes/stroke/linecap'
+                            },{
+                                name: '线连接',
+                                route: '/basic-shapes/stroke/linejoin'
                             }
                         ]
                     },{
