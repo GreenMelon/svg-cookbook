@@ -32,6 +32,7 @@ import StrokeWidth from '../pages/basic-shapes/stroke/width';
 import StrokeColor from '../pages/basic-shapes/stroke/color';
 import StrokeDasharray from '../pages/basic-shapes/stroke/dasharray';
 import StrokeLinecap from '../pages/basic-shapes/stroke/linecap';
+import StrokeLinejoin from '../pages/basic-shapes/stroke/linejoin';
 
 import FillRule from '../pages/basic-shapes/fill/rule';
 
@@ -130,6 +131,9 @@ export default [
     },{
         path: '/basic-shapes/stroke/linecap',
         component: StrokeLinecap
+    },{
+        path: '/basic-shapes/stroke/linejoin',
+        component: StrokeLinejoin
     },{
         path: '/basic-shapes/fill/rule',
         component: FillRule
