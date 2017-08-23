@@ -26,6 +26,7 @@ import Rectangles002 from '../pages/basic-shapes/rectangles/002';
 import Circles001 from '../pages/basic-shapes/circles/001';
 import Ellipses001 from '../pages/basic-shapes/ellipses/001';
 import Polygon001 from '../pages/basic-shapes/polygon/001';
+import Polyline001 from '../pages/basic-shapes/polyline/001';
 
 import StrokeWidth from '../pages/basic-shapes/stroke/width';
 import StrokeColor from '../pages/basic-shapes/stroke/color';
@@ -108,6 +109,9 @@ export default [
     },{
         path: '/basic-shapes/polygon/001',
         component: Polygon001
+    },{
+        path: '/basic-shapes/polyline/001',
+        component: Polyline001
     },
 
     {
