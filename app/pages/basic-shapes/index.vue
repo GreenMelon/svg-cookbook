@@ -71,6 +71,14 @@
                             }
                         ]
                     },{
+                        name: '折线',
+                        instances: [
+                            {
+                                name: '实例',
+                                route: '/basic-shapes/polyline/001'
+                            }
+                        ]
+                    },{
                         name: '笔画特性',
                         instances: [
                             {
