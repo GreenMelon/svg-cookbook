@@ -31,6 +31,7 @@ import Polyline001 from '../pages/basic-shapes/polyline/001';
 import StrokeWidth from '../pages/basic-shapes/stroke/width';
 import StrokeColor from '../pages/basic-shapes/stroke/color';
 import StrokeDasharray from '../pages/basic-shapes/stroke/dasharray';
+import StrokeLinecap from '../pages/basic-shapes/stroke/linecap';
 
 import FillRule from '../pages/basic-shapes/fill/rule';
 
@@ -126,6 +127,9 @@ export default [
     },{
         path: '/basic-shapes/stroke/shape-rendering',
         component: ShapeRendering
+    },{
+        path: '/basic-shapes/stroke/linecap',
+        component: StrokeLinecap
     },{
         path: '/basic-shapes/fill/rule',
         component: FillRule

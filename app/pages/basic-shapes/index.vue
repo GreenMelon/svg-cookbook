@@ -93,6 +93,9 @@
                             },{
                                 name: '锯齿与反锯齿',
                                 route: '/basic-shapes/stroke/shape-rendering'
+                            },{
+                                name: '头尾形状',
+                                route: '/basic-shapes/stroke/linecap'
                             }
                         ]
                     },{
