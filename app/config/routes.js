@@ -25,10 +25,13 @@ import Rectangles001 from '../pages/basic-shapes/rectangles/001';
 import Rectangles002 from '../pages/basic-shapes/rectangles/002';
 import Circles001 from '../pages/basic-shapes/circles/001';
 import Ellipses001 from '../pages/basic-shapes/ellipses/001';
+import Polygon001 from '../pages/basic-shapes/polygon/001';
 
 import StrokeWidth from '../pages/basic-shapes/stroke/width';
 import StrokeColor from '../pages/basic-shapes/stroke/color';
 import StrokeDasharray from '../pages/basic-shapes/stroke/dasharray';
+
+import FillRule from '../pages/basic-shapes/fill/rule';
 
 import ShapeRendering from '../pages/basic-shapes/stroke/shape-rendering';
 
@@ -102,6 +105,9 @@ export default [
     },{
         path: '/basic-shapes/ellipses/001',
         component: Ellipses001
+    },{
+        path: '/basic-shapes/polygon/001',
+        component: Polygon001
     },
 
     {
@@ -116,6 +122,9 @@ export default [
     },{
         path: '/basic-shapes/stroke/shape-rendering',
         component: ShapeRendering
+    },{
+        path: '/basic-shapes/fill/rule',
+        component: FillRule
     },
 
     {

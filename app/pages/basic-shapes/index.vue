@@ -63,6 +63,14 @@
                             }
                         ]
                     },{
+                        name: '多边形',
+                        instances: [
+                            {
+                                name: '实例',
+                                route: '/basic-shapes/polygon/001'
+                            }
+                        ]
+                    },{
                         name: '笔画特性',
                         instances: [
                             {
@@ -77,6 +85,14 @@
                             },{
                                 name: '锯齿与反锯齿',
                                 route: '/basic-shapes/stroke/shape-rendering'
+                            }
+                        ]
+                    },{
+                        name: '填充特性',
+                        instances: [
+                            {
+                                name: '填充边线交叉',
+                                route: '/basic-shapes/fill/rule'
                             }
                         ]
                     }
