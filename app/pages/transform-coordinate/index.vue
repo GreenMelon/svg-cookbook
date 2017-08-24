@@ -33,6 +33,9 @@
                             {
                                 name: '等比缩放',
                                 route: '/transform-coordinate/scale/001'
+                            },{
+                                name: '不等比缩放',
+                                route: '/transform-coordinate/scale/002'
                             }
                         ]
                     }
