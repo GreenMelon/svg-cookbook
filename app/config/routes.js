@@ -43,6 +43,7 @@ import DocStru001 from '../pages/document-structure/001';
 
 import TransformCoordinateIndex from '../pages/transform-coordinate/index';
 import Translate001 from '../pages/transform-coordinate/translate/001';
+import Scale001 from '../pages/transform-coordinate/scale/001';
 
 export default [
     {
@@ -156,6 +157,9 @@ export default [
     },{
         path: '/transform-coordinate/translate/001',
         component: Translate001
+    },{
+        path: '/transform-coordinate/scale/001',
+        component: Scale001
     },
 
     {

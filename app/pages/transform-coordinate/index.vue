@@ -27,6 +27,14 @@
                                 route: '/transform-coordinate/translate/001'
                             }
                         ]
+                    },{
+                        name: '缩放',
+                        instances: [
+                            {
+                                name: '等比缩放',
+                                route: '/transform-coordinate/scale/001'
+                            }
+                        ]
                     }
                 ]
             }
