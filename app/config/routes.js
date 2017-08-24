@@ -41,6 +41,9 @@ import ShapeRendering from '../pages/basic-shapes/stroke/shape-rendering';
 import DocStruIndex from '../pages/document-structure/index';
 import DocStru001 from '../pages/document-structure/001';
 
+import TransformCoordinateIndex from '../pages/transform-coordinate/index';
+import Translate001 from '../pages/transform-coordinate/translate/001';
+
 export default [
     {
         path: '/',
@@ -145,6 +148,14 @@ export default [
     },{
         path: '/document-structure/001',
         component: DocStru001
+    },
+
+    {
+        path: '/transforming-the-coordinate-system',
+        component: TransformCoordinateIndex
+    },{
+        path: '/transform-coordinate/translate/001',
+        component: Translate001
     },
 
     {
