@@ -39,6 +39,17 @@
                             }
                         ]
                     },{
+                        name: '旋转',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/transform-coordinate/rotate/001'
+                            },{
+                                name: '002',
+                                route: '/transform-coordinate/rotate/002'
+                            }
+                        ]
+                    },{
                         name: '变换序列',
                         instances: [
                             {
