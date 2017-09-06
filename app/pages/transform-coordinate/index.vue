@@ -46,6 +46,14 @@
                                 route: '/transform-coordinate/sequences/001'
                             }
                         ]
+                    },{
+                        name: '笛卡尔坐标系统转换',
+                        instances: [
+                            {
+                                name: '实例',
+                                route: '/transform-coordinate/cartesian/001'
+                            }
+                        ]
                     }
                 ]
             }
