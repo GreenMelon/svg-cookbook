@@ -3,6 +3,9 @@
 
 <template>
     <main>
+        <h1>
+            <a href="http://oreillymedia.github.io/svg-essentials-examples/ch06/sequence.html" target="_blank">在线示例</a>
+        </h1>
         <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
             <!-- 坐标轴 -->
             <line x1="0" y1="0" x2="800" y2="0" style="stroke: gray" />

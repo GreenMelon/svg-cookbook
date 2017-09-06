@@ -46,6 +46,7 @@ import Translate001 from '../pages/transform-coordinate/translate/001';
 import Scale001 from '../pages/transform-coordinate/scale/001';
 import Scale002 from '../pages/transform-coordinate/scale/002';
 import Sequences001 from '../pages/transform-coordinate/sequences/001';
+import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
 
 export default [
     {
@@ -168,6 +169,9 @@ export default [
     },{
         path: '/transform-coordinate/sequences/001',
         component: Sequences001
+    },{
+        path: '/transform-coordinate/cartesian/001',
+        component: Cartesian001
     },
 
     {
