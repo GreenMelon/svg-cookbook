@@ -38,6 +38,14 @@
                                 route: '/transform-coordinate/scale/002'
                             }
                         ]
+                    },{
+                        name: '变换序列',
+                        instances: [
+                            {
+                                name: '实例',
+                                route: '/transform-coordinate/sequences/001'
+                            }
+                        ]
                     }
                 ]
             }
