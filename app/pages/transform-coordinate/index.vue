@@ -36,6 +36,9 @@
                             },{
                                 name: '不等比缩放',
                                 route: '/transform-coordinate/scale/002'
+                            },{
+                                name: '围绕中心点缩放',
+                                route: '/transform-coordinate/scale/003'
                             }
                         ]
                     },{

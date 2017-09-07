@@ -45,6 +45,7 @@ import TransformCoordinateIndex from '../pages/transform-coordinate/index';
 import Translate001 from '../pages/transform-coordinate/translate/001';
 import Scale001 from '../pages/transform-coordinate/scale/001';
 import Scale002 from '../pages/transform-coordinate/scale/002';
+import Scale003 from '../pages/transform-coordinate/scale/003';
 import Rotate001 from '../pages/transform-coordinate/rotate/001';
 import Rotate002 from '../pages/transform-coordinate/rotate/002';
 import Sequences001 from '../pages/transform-coordinate/sequences/001';
@@ -168,6 +169,9 @@ export default [
     },{
         path: '/transform-coordinate/scale/002',
         component: Scale002
+    },{
+        path: '/transform-coordinate/scale/003',
+        component: Scale003
     },{
         path: '/transform-coordinate/rotate/001',
         component: Rotate001
