@@ -14,7 +14,7 @@
             <!-- 中心点  -->
             <circle cx="50" cy="50" r="2" />
 
-            <!-- 未旋转的箭头 -->
+            <!-- 原来的图形 -->
             <g id="box" style="stroke: black; fill: none;">
                 <rect x="35" y="40" width="30" height="20" />
             </g>

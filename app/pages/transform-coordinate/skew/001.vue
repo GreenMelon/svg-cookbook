@@ -1,0 +1,39 @@
+<style lang="less" scoped>
+</style>
+
+<template>
+    <main>
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+            <!-- 参考线 -->
+            <g style="stroke: gray; stroke-dasharray: 4;">
+                <line x1="0" y1="0" x2="200" y2="0" />
+                <line x1="20" y1="0" x2="20" y2="90" />
+                <line x1="120" y1="0" x2="120" y2="90" />
+            </g>
+
+            <g transform="translate(20, 0)">
+                <g transform="skewX(30)">
+                    <polyline
+                        points="50 0, 0 0, 0 50"
+                        style="fill: none; stroke: red; stroke-width: 2;"
+                    />
+                    <text x="0" y="60">skewX</text>
+                </g>
+            </g>
+
+            <g transform="translate(120, 0)">
+                <g transform="skewY(30)">
+                    <polyline
+                        points="50 0, 0 0, 0 50"
+                        style="fill: none; stroke: green; stroke-width: 2;"
+                    />
+                    <text x="0" y="60">skewY</text>
+                </g>
+            </g>
+        </svg>
+    </main>
+</template>
+
+<script>
+    module.exports = {}
+</script>

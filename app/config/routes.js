@@ -48,6 +48,7 @@ import Scale002 from '../pages/transform-coordinate/scale/002';
 import Scale003 from '../pages/transform-coordinate/scale/003';
 import Rotate001 from '../pages/transform-coordinate/rotate/001';
 import Rotate002 from '../pages/transform-coordinate/rotate/002';
+import Skew001 from '../pages/transform-coordinate/skew/001';
 import Sequences001 from '../pages/transform-coordinate/sequences/001';
 import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
 
@@ -178,6 +179,9 @@ export default [
     },{
         path: '/transform-coordinate/rotate/002',
         component: Rotate002
+    },{
+        path: '/transform-coordinate/skew/001',
+        component: Skew001
     },{
         path: '/transform-coordinate/sequences/001',
         component: Sequences001

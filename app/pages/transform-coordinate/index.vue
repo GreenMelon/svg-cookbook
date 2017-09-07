@@ -53,6 +53,14 @@
                             }
                         ]
                     },{
+                        name: '倾斜',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/transform-coordinate/skew/001'
+                            }
+                        ]
+                    },{
                         name: '变换序列',
                         instances: [
                             {
