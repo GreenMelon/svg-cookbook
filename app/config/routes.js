@@ -55,6 +55,7 @@ import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
 import PathsIndex from '../pages/paths/index';
 import MoveTo001 from '../pages/paths/moveto/001';
 import ClosePath001 from '../pages/paths/closepath/001';
+import Relative001 from '../pages/paths/relative/001';
 
 export default [
     {
@@ -203,6 +204,9 @@ export default [
     },{
         path: '/paths/closepath/001',
         component: ClosePath001
+    },{
+        path: '/paths/relative/001',
+        component: Relative001
     },
 
     {

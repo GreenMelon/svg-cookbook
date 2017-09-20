@@ -20,7 +20,7 @@
             return {
                 categories: [
                     {
-                        name: 'moveTo',
+                        name: 'moveTo 移动画笔到指定位置',
                         instances: [
                             {
                                 name: '001',
@@ -28,11 +28,19 @@
                             }
                         ]
                     },{
-                        name: 'closepath',
+                        name: 'closepath 闭合路径',
                         instances: [
                             {
                                 name: '001',
                                 route: '/paths/closepath/001'
+                            }
+                        ]
+                    },{
+                        name: 'relative 相对坐标',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/relative/001'
                             }
                         ]
                     }
