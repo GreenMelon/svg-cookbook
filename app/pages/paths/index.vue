@@ -65,6 +65,9 @@
                             {
                                 name: '001',
                                 route: '/paths/elliptical-arc/001'
+                            },{
+                                name: '太极',
+                                route: '/paths/elliptical-arc/taichi'
                             }
                         ]
                     }
