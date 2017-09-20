@@ -59,6 +59,14 @@
                                 route: '/paths/vertical/001'
                             }
                         ]
+                    },{
+                        name: 'elliptical-arc 椭圆弧',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/elliptical-arc/001'
+                            }
+                        ]
                     }
                 ]
             }
