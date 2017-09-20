@@ -52,6 +52,10 @@ import Skew001 from '../pages/transform-coordinate/skew/001';
 import Sequences001 from '../pages/transform-coordinate/sequences/001';
 import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
 
+import PathsIndex from '../pages/paths/index';
+import MoveTo001 from '../pages/paths/moveto/001';
+import ClosePath001 from '../pages/paths/closepath/001';
+
 export default [
     {
         path: '/',
@@ -188,6 +192,17 @@ export default [
     },{
         path: '/transform-coordinate/cartesian/001',
         component: Cartesian001
+    },
+
+    {
+        path: '/paths',
+        component: PathsIndex
+    },{
+        path: '/paths/moveto/001',
+        component: MoveTo001
+    },{
+        path: '/paths/closepath/001',
+        component: ClosePath001
     },
 
     {
