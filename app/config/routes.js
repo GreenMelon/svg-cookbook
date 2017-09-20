@@ -58,6 +58,7 @@ import ClosePath001 from '../pages/paths/closepath/001';
 import Relative001 from '../pages/paths/relative/001';
 import HorizontalLineTo001 from '../pages/paths/horizontal/001';
 import VerticalLineTo001 from '../pages/paths/vertical/001';
+import EllipticalArc001 from '../pages/paths/elliptical-arc/001';
 
 export default [
     {
@@ -215,6 +216,9 @@ export default [
     },{
         path: '/paths/vertical/001',
         component: VerticalLineTo001
+    },{
+        path: '/paths/elliptical-arc/001',
+        component: EllipticalArc001
     },
 
     {
