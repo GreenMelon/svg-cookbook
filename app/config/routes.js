@@ -60,6 +60,7 @@ import HorizontalLineTo001 from '../pages/paths/horizontal/001';
 import VerticalLineTo001 from '../pages/paths/vertical/001';
 import EllipticalArc001 from '../pages/paths/elliptical-arc/001';
 import Taichi from '../pages/paths/elliptical-arc/taichi';
+import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
 
 export default [
     {
@@ -223,6 +224,9 @@ export default [
     },{
         path: '/paths/elliptical-arc/taichi',
         component: Taichi
+    },{
+        path: '/paths/bezier-curves/quadratic',
+        component: QuadraticBezierCurves
     },
 
     {

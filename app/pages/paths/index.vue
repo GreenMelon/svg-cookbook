@@ -70,6 +70,14 @@
                                 route: '/paths/elliptical-arc/taichi'
                             }
                         ]
+                    },{
+                        name: 'bezier-curves 贝塞尔曲线',
+                        instances: [
+                            {
+                                name: '001 简单的二次贝塞尔曲线',
+                                route: '/paths/bezier-curves/quadratic'
+                            }
+                        ]
                     }
                 ]
             }
