@@ -11,7 +11,7 @@
             <li>sweep-flag 顺时针为1，逆时针为0</li>
             <li>终点的x坐标和y坐标</li>
         </ol>
-        <p><a href="http://oreillymedia.github.io/svg-essentials-examples/ch07/arc.html">在线示例</a></p>
+        <p><a href="http://oreillymedia.github.io/svg-essentials-examples/ch07/arc.html" target="_blank">在线示例</a></p>
 
         <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
             <!-- 起点 -->
