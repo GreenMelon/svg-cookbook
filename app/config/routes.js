@@ -56,6 +56,8 @@ import PathsIndex from '../pages/paths/index';
 import MoveTo001 from '../pages/paths/moveto/001';
 import ClosePath001 from '../pages/paths/closepath/001';
 import Relative001 from '../pages/paths/relative/001';
+import HorizontalLineTo001 from '../pages/paths/horizontal/001';
+import VerticalLineTo001 from '../pages/paths/vertical/001';
 
 export default [
     {
@@ -207,6 +209,12 @@ export default [
     },{
         path: '/paths/relative/001',
         component: Relative001
+    },{
+        path: '/paths/horizontal/001',
+        component: HorizontalLineTo001
+    },{
+        path: '/paths/vertical/001',
+        component: VerticalLineTo001
     },
 
     {

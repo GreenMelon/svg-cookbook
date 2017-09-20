@@ -43,6 +43,22 @@
                                 route: '/paths/relative/001'
                             }
                         ]
+                    },{
+                        name: 'horizontal 水平线',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/horizontal/001'
+                            }
+                        ]
+                    },{
+                        name: 'vertical 垂直线',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/vertical/001'
+                            }
+                        ]
                     }
                 ]
             }
