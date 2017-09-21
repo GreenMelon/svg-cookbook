@@ -81,6 +81,14 @@
                                 route: '/paths/bezier-curves/cubic'
                             }
                         ]
+                    },{
+                        name: 'filling 路径和填充',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/filling/001'
+                            }
+                        ]
                     }
                 ]
             }
