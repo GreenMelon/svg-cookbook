@@ -62,6 +62,7 @@ import EllipticalArc001 from '../pages/paths/elliptical-arc/001';
 import Taichi from '../pages/paths/elliptical-arc/taichi';
 import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
 import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
+import PathsAndFilling from '../pages/paths/filling/001';
 
 export default [
     {
@@ -231,6 +232,9 @@ export default [
     },{
         path: '/paths/bezier-curves/cubic',
         component: CubicBezierCurves
+    },{
+        path: '/paths/filling/001',
+        component: PathsAndFilling
     },
 
     {
