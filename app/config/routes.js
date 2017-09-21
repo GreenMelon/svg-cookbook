@@ -63,6 +63,7 @@ import Taichi from '../pages/paths/elliptical-arc/taichi';
 import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
 import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
 import PathsAndFilling from '../pages/paths/filling/001';
+import Marker001 from '../pages/paths/marker/001';
 
 export default [
     {
@@ -235,6 +236,9 @@ export default [
     },{
         path: '/paths/filling/001',
         component: PathsAndFilling
+    },{
+        path: '/paths/marker/001',
+        component: Marker001
     },
 
     {

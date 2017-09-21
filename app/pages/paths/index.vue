@@ -89,6 +89,14 @@
                                 route: '/paths/filling/001'
                             }
                         ]
+                    },{
+                        name: 'marker 标记',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/paths/marker/001'
+                            }
+                        ]
                     }
                 ]
             }
