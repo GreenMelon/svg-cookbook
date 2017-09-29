@@ -30,6 +30,14 @@
                                 route: '/patterns-and-gradients/pattern-units/002'
                             }
                         ]
+                    },{
+                        name: 'patternContentUnits',
+                        instances: [
+                            {
+                                name: '001 objectBoundingBox',
+                                route: '/patterns-and-gradients/pattern-content-units/001'
+                            }
+                        ]
                     }
                 ]
             }
