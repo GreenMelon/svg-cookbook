@@ -65,6 +65,10 @@ import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
 import PathsAndFilling from '../pages/paths/filling/001';
 import Marker001 from '../pages/paths/marker/001';
 
+import PatternsAndGradientsIndex from '../pages/patterns-and-gradients/index';
+import PatternUnits001 from '../pages/patterns-and-gradients/pattern-units/001';
+import PatternUnits002 from '../pages/patterns-and-gradients/pattern-units/002';
+
 export default [
     {
         path: '/',
@@ -239,6 +243,17 @@ export default [
     },{
         path: '/paths/marker/001',
         component: Marker001
+    },
+
+    {
+        path: '/patterns-and-gradients',
+        component: PatternsAndGradientsIndex
+    },{
+        path: '/patterns-and-gradients/pattern-units/001',
+        component: PatternUnits001
+    },{
+        path: '/patterns-and-gradients/pattern-units/002',
+        component: PatternUnits002
     },
 
     {
