@@ -68,6 +68,7 @@ import Marker001 from '../pages/paths/marker/001';
 import PatternsAndGradientsIndex from '../pages/patterns-and-gradients/index';
 import PatternUnits001 from '../pages/patterns-and-gradients/pattern-units/001';
 import PatternUnits002 from '../pages/patterns-and-gradients/pattern-units/002';
+import PatternContentUnits001 from '../pages/patterns-and-gradients/pattern-content-units/001';
 
 export default [
     {
@@ -254,6 +255,9 @@ export default [
     },{
         path: '/patterns-and-gradients/pattern-units/002',
         component: PatternUnits002
+    },{
+        path: '/patterns-and-gradients/pattern-content-units/001',
+        component: PatternContentUnits001
     },
 
     {
