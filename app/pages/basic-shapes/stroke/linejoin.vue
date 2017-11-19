@@ -15,7 +15,7 @@
                         stroke-linejoin="miter"
                         fill="none"
                     />
-                    <!-- round 尖的 -->
+                    <!-- round 圆的 -->
                     <polyline
                         points="130 30, 145 15, 160 30"
                         stroke="#c7254e"
