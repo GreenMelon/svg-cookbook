@@ -70,6 +70,8 @@ import PatternUnits001 from '../pages/patterns-and-gradients/pattern-units/001';
 import PatternUnits002 from '../pages/patterns-and-gradients/pattern-units/002';
 import PatternContentUnits001 from '../pages/patterns-and-gradients/pattern-content-units/001';
 
+import TextIndex from '../pages/text/index';
+
 export default [
     {
         path: '/',
@@ -258,6 +260,11 @@ export default [
     },{
         path: '/patterns-and-gradients/pattern-content-units/001',
         component: PatternContentUnits001
+    },
+
+    {
+        path: '/text',
+        component: TextIndex
     },
 
     {
