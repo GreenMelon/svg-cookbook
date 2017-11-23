@@ -38,6 +38,14 @@
                                 route: '/patterns-and-gradients/pattern-content-units/001'
                             }
                         ]
+                    },{
+                        name: 'linearGradient 线性渐变',
+                        instances: [
+                            {
+                                name: '001 stop',
+                                route: '/patterns-and-gradients/linear-gradient/stop'
+                            }
+                        ]
                     }
                 ]
             }

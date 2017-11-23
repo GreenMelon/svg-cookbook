@@ -69,6 +69,7 @@ import PatternsAndGradientsIndex from '../pages/patterns-and-gradients/index';
 import PatternUnits001 from '../pages/patterns-and-gradients/pattern-units/001';
 import PatternUnits002 from '../pages/patterns-and-gradients/pattern-units/002';
 import PatternContentUnits001 from '../pages/patterns-and-gradients/pattern-content-units/001';
+import LinearGradientStop from '../pages/patterns-and-gradients/linear-gradient/stop';
 
 import TextIndex from '../pages/text/index';
 
@@ -260,6 +261,9 @@ export default [
     },{
         path: '/patterns-and-gradients/pattern-content-units/001',
         component: PatternContentUnits001
+    },{
+        path: '/patterns-and-gradients/linear-gradient/stop',
+        component: LinearGradientStop
     },
 
     {
