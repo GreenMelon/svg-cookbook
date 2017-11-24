@@ -44,6 +44,9 @@
                             {
                                 name: '001 stop',
                                 route: '/patterns-and-gradients/linear-gradient/stop'
+                            },{
+                                name: '001 stop-opacity',
+                                route: '/patterns-and-gradients/linear-gradient/stop-opacity'
                             }
                         ]
                     }
