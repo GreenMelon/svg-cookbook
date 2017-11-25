@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <p>在其他XML中标识SVG</p>
@@ -9,5 +6,5 @@
 </template>
 
 <script>
-    module.exports = {};
+    export default {}
 </script>

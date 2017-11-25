@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <h1>确定一段椭圆弧需要的条件</h1>
@@ -40,5 +37,5 @@
 </template>
 
 <script>
-    module.exports = {}
+    export default {}
 </script>
