@@ -24,7 +24,7 @@
      * 这个文件提供了路由的挂载元素
      */
 
-    module.exports = {
+    export default {
         data() {
             return {
                 chapters: [

@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <!-- XML处理指令 -->
@@ -27,5 +24,5 @@
 </template>
 
 <script>
-    module.exports = {}
+    export default {}
 </script>

@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <h1>从笛卡尔坐标系导过来的数据，由于y轴相反，因此上下颠倒了</h1>
@@ -26,5 +23,5 @@
 </template>
 
 <script>
-    module.exports = {}
+    export default {}
 </script>

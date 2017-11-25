@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <dl>
@@ -15,5 +12,5 @@
 </template>
 
 <script>
-    module.exports = {};
+    export default {};
 </script>

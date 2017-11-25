@@ -1,6 +1,3 @@
-<style lang="less" scoped>
-</style>
-
 <template>
     <main>
         <img src="/app/images/watermelon.svg" alt="watermelon" title="svg">
@@ -14,5 +11,5 @@
 </template>
 
 <script>
-    module.exports = {};
+    export default {}
 </script>

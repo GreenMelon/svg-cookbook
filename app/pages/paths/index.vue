@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    module.exports = {
+    export default {
         data() {
             return {
                 categories: [
@@ -100,8 +100,6 @@
                     }
                 ]
             }
-        },
-        methods: {},
-        created() {}
+        }
     }
 </script>
