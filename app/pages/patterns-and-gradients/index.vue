@@ -50,6 +50,9 @@
                             },{
                                 name: '003 direction',
                                 route: '/patterns-and-gradients/linear-gradient/direction'
+                            },{
+                                name: '004 spreadMethod',
+                                route: '/patterns-and-gradients/linear-gradient/spread-method'
                             }
                         ]
                     }
