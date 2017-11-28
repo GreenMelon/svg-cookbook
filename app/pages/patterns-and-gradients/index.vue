@@ -55,6 +55,14 @@
                                 route: '/patterns-and-gradients/linear-gradient/spread-method'
                             }
                         ]
+                    },{
+                        name: 'radialGradient 径向渐变',
+                        instances: [
+                            {
+                                name: '001',
+                                route: '/patterns-and-gradients/radial-gradient/001'
+                            }
+                        ]
                     }
                 ]
             }

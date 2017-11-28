@@ -73,6 +73,7 @@ import LinearGradientStop from '../pages/patterns-and-gradients/linear-gradient/
 import LinearGradientStopOpacity from '../pages/patterns-and-gradients/linear-gradient/stop-opacity';
 import LinearGradientDirection from '../pages/patterns-and-gradients/linear-gradient/direction';
 import LinearGradientSpreadMethod from '../pages/patterns-and-gradients/linear-gradient/spread-method';
+import RadialGradient001 from '../pages/patterns-and-gradients/radial-gradient/001';
 
 import TextIndex from '../pages/text/index';
 
@@ -276,6 +277,9 @@ export default [
     },{
         path: '/patterns-and-gradients/linear-gradient/spread-method',
         component: LinearGradientSpreadMethod
+    },{
+        path: '/patterns-and-gradients/radial-gradient/001',
+        component: RadialGradient001
     },
 
     {
