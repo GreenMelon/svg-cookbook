@@ -51,6 +51,7 @@ import Rotate002 from '../pages/transform-coordinate/rotate/002';
 import Skew001 from '../pages/transform-coordinate/skew/001';
 import Sequences001 from '../pages/transform-coordinate/sequences/001';
 import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
+import TransformInstances001 from '../pages/transform-coordinate/instances/001';
 
 import PathsIndex from '../pages/paths/index';
 import MoveTo001 from '../pages/paths/moveto/001';
@@ -213,6 +214,9 @@ export default [
     },{
         path: '/transform-coordinate/cartesian/001',
         component: Cartesian001
+    },{
+        path: '/transform-coordinate/instances/001',
+        component: TransformInstances001
     },
 
     {
