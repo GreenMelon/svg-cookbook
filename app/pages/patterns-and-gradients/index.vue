@@ -59,8 +59,11 @@
                         name: 'radialGradient 径向渐变',
                         instances: [
                             {
-                                name: '001',
+                                name: '简单例子',
                                 route: '/patterns-and-gradients/radial-gradient/001'
+                            },{
+                                name: '设置范围',
+                                route: '/patterns-and-gradients/radial-gradient/transition-limit'
                             }
                         ]
                     }
