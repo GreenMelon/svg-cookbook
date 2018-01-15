@@ -74,6 +74,7 @@ import LinearGradientStop from '../pages/patterns-and-gradients/linear-gradient/
 import LinearGradientStopOpacity from '../pages/patterns-and-gradients/linear-gradient/stop-opacity';
 import LinearGradientDirection from '../pages/patterns-and-gradients/linear-gradient/direction';
 import LinearGradientSpreadMethod from '../pages/patterns-and-gradients/linear-gradient/spread-method';
+import LinearGradientCircle from '../pages/patterns-and-gradients/linear-gradient/circle';
 import RadialGradient001 from '../pages/patterns-and-gradients/radial-gradient/001';
 import RadialGradientTransitionLimit from '../pages/patterns-and-gradients/radial-gradient/transition-limit';
 
@@ -282,6 +283,9 @@ export default [
     },{
         path: '/patterns-and-gradients/linear-gradient/spread-method',
         component: LinearGradientSpreadMethod
+    },{
+        path: '/patterns-and-gradients/linear-gradient/circle',
+        component: LinearGradientCircle
     },{
         path: '/patterns-and-gradients/radial-gradient/001',
         component: RadialGradient001

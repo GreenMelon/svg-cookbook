@@ -43,6 +43,9 @@
                             },{
                                 name: '004 spreadMethod',
                                 route: '/patterns-and-gradients/linear-gradient/spread-method'
+                            },{
+                                name: '渐变圆',
+                                route: '/patterns-and-gradients/linear-gradient/circle'
                             }
                         ]
                     },{
