@@ -60,6 +60,7 @@ import Relative01 from '../pages/paths/relative/01';
 import HorizontalLineTo01 from '../pages/paths/horizontal/01';
 import VerticalLineTo01 from '../pages/paths/vertical/01';
 import EllipticalArc01 from '../pages/paths/elliptical-arc/01';
+import EllipticalArc02 from '../pages/paths/elliptical-arc/02';
 import Taichi from '../pages/paths/elliptical-arc/taichi';
 import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
 import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
@@ -242,6 +243,9 @@ export default [
     },{
         path: '/paths/elliptical-arc/01',
         component: EllipticalArc01
+    },{
+        path: '/paths/elliptical-arc/02',
+        component: EllipticalArc02
     },{
         path: '/paths/elliptical-arc/taichi',
         component: Taichi
