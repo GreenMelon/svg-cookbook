@@ -56,6 +56,9 @@
                                 name: '01',
                                 route: '/paths/elliptical-arc/01'
                             },{
+                                name: '02 圆弧',
+                                route: '/paths/elliptical-arc/02'
+                            },{
                                 name: '太极',
                                 route: '/paths/elliptical-arc/taichi'
                             }
