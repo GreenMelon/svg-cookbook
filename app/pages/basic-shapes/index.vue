@@ -14,7 +14,7 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/basic-shapes/lines/001'
+                                route: '/basic-shapes/lines/01'
                             }
                         ]
                     },{
@@ -22,7 +22,7 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/basic-shapes/triangles/001'
+                                route: '/basic-shapes/triangles/01'
                             }
                         ]
                     },{
@@ -30,10 +30,10 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/basic-shapes/rectangles/001'
+                                route: '/basic-shapes/rectangles/01'
                             },{
                                 name: '圆角矩形',
-                                route: '/basic-shapes/rectangles/002'
+                                route: '/basic-shapes/rectangles/02'
                             }
                         ]
                     },{
@@ -41,7 +41,7 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/basic-shapes/circles/001'
+                                route: '/basic-shapes/circles/01'
                             }
                         ]
                     },{
@@ -49,7 +49,7 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/basic-shapes/ellipses/001'
+                                route: '/basic-shapes/ellipses/01'
                             }
                         ]
                     },{
@@ -57,7 +57,7 @@
                         instances: [
                             {
                                 name: '实例',
-                                route: '/basic-shapes/polygon/001'
+                                route: '/basic-shapes/polygon/01'
                             }
                         ]
                     },{
@@ -65,7 +65,7 @@
                         instances: [
                             {
                                 name: '实例',
-                                route: '/basic-shapes/polyline/001'
+                                route: '/basic-shapes/polyline/01'
                             }
                         ]
                     },{

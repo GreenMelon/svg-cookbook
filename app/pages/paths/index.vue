@@ -13,48 +13,48 @@
                         name: 'moveTo 移动画笔到指定位置',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/moveto/001'
+                                name: '01',
+                                route: '/paths/moveto/01'
                             }
                         ]
                     },{
                         name: 'closepath 闭合路径',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/closepath/001'
+                                name: '01',
+                                route: '/paths/closepath/01'
                             }
                         ]
                     },{
                         name: 'relative 相对坐标',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/relative/001'
+                                name: '01',
+                                route: '/paths/relative/01'
                             }
                         ]
                     },{
                         name: 'horizontal 水平线',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/horizontal/001'
+                                name: '01',
+                                route: '/paths/horizontal/01'
                             }
                         ]
                     },{
                         name: 'vertical 垂直线',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/vertical/001'
+                                name: '01',
+                                route: '/paths/vertical/01'
                             }
                         ]
                     },{
                         name: 'elliptical-arc 椭圆弧',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/elliptical-arc/001'
+                                name: '01',
+                                route: '/paths/elliptical-arc/01'
                             },{
                                 name: '太极',
                                 route: '/paths/elliptical-arc/taichi'
@@ -75,16 +75,16 @@
                         name: 'filling 路径和填充',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/filling/001'
+                                name: '01',
+                                route: '/paths/filling/01'
                             }
                         ]
                     },{
                         name: 'marker 标记',
                         instances: [
                             {
-                                name: '001',
-                                route: '/paths/marker/001'
+                                name: '01',
+                                route: '/paths/marker/01'
                             }
                         ]
                     }
