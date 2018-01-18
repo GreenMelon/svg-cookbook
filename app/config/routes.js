@@ -19,14 +19,14 @@ import CoordinatesConcept from '../pages/coordinates/concept';
 import PreserveAspectRatio from '../pages/coordinates/preserve-aspect-ratio';
 
 import BasicShapesIndex from '../pages/basic-shapes/index';
-import Lines001 from '../pages/basic-shapes/lines/001';
-import Triangles001 from '../pages/basic-shapes/triangles/001';
-import Rectangles001 from '../pages/basic-shapes/rectangles/001';
-import Rectangles002 from '../pages/basic-shapes/rectangles/002';
-import Circles001 from '../pages/basic-shapes/circles/001';
-import Ellipses001 from '../pages/basic-shapes/ellipses/001';
-import Polygon001 from '../pages/basic-shapes/polygon/001';
-import Polyline001 from '../pages/basic-shapes/polyline/001';
+import Lines01 from '../pages/basic-shapes/lines/01';
+import Triangles01 from '../pages/basic-shapes/triangles/01';
+import Rectangles01 from '../pages/basic-shapes/rectangles/01';
+import Rectangles02 from '../pages/basic-shapes/rectangles/02';
+import Circles01 from '../pages/basic-shapes/circles/01';
+import Ellipses01 from '../pages/basic-shapes/ellipses/01';
+import Polygon01 from '../pages/basic-shapes/polygon/01';
+import Polyline01 from '../pages/basic-shapes/polyline/01';
 
 import StrokeWidth from '../pages/basic-shapes/stroke/width';
 import StrokeColor from '../pages/basic-shapes/stroke/color';
@@ -39,43 +39,43 @@ import FillRule from '../pages/basic-shapes/fill/rule';
 import ShapeRendering from '../pages/basic-shapes/stroke/shape-rendering';
 
 import DocStruIndex from '../pages/document-structure/index';
-import DocStru001 from '../pages/document-structure/001';
+import DocStru01 from '../pages/document-structure/01';
 
 import TransformCoordinateIndex from '../pages/transform-coordinate/index';
-import Translate001 from '../pages/transform-coordinate/translate/001';
-import Scale001 from '../pages/transform-coordinate/scale/001';
-import Scale002 from '../pages/transform-coordinate/scale/002';
-import Scale003 from '../pages/transform-coordinate/scale/003';
-import Rotate001 from '../pages/transform-coordinate/rotate/001';
-import Rotate002 from '../pages/transform-coordinate/rotate/002';
-import Skew001 from '../pages/transform-coordinate/skew/001';
-import Sequences001 from '../pages/transform-coordinate/sequences/001';
-import Cartesian001 from '../pages/transform-coordinate/cartesian/001';
-import TransformInstances001 from '../pages/transform-coordinate/instances/001';
+import Translate01 from '../pages/transform-coordinate/translate/01';
+import Scale01 from '../pages/transform-coordinate/scale/01';
+import Scale02 from '../pages/transform-coordinate/scale/02';
+import Scale03 from '../pages/transform-coordinate/scale/03';
+import Rotate01 from '../pages/transform-coordinate/rotate/01';
+import Rotate02 from '../pages/transform-coordinate/rotate/02';
+import Skew01 from '../pages/transform-coordinate/skew/01';
+import Sequences01 from '../pages/transform-coordinate/sequences/01';
+import Cartesian01 from '../pages/transform-coordinate/cartesian/01';
+import TransformInstances01 from '../pages/transform-coordinate/instances/01';
 
 import PathsIndex from '../pages/paths/index';
-import MoveTo001 from '../pages/paths/moveto/001';
-import ClosePath001 from '../pages/paths/closepath/001';
-import Relative001 from '../pages/paths/relative/001';
-import HorizontalLineTo001 from '../pages/paths/horizontal/001';
-import VerticalLineTo001 from '../pages/paths/vertical/001';
-import EllipticalArc001 from '../pages/paths/elliptical-arc/001';
+import MoveTo01 from '../pages/paths/moveto/01';
+import ClosePath01 from '../pages/paths/closepath/01';
+import Relative01 from '../pages/paths/relative/01';
+import HorizontalLineTo01 from '../pages/paths/horizontal/01';
+import VerticalLineTo01 from '../pages/paths/vertical/01';
+import EllipticalArc01 from '../pages/paths/elliptical-arc/01';
 import Taichi from '../pages/paths/elliptical-arc/taichi';
 import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
 import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
-import PathsAndFilling from '../pages/paths/filling/001';
-import Marker001 from '../pages/paths/marker/001';
+import PathsAndFilling from '../pages/paths/filling/01';
+import Marker01 from '../pages/paths/marker/01';
 
 import PatternsAndGradientsIndex from '../pages/patterns-and-gradients/index';
-import PatternUnits001 from '../pages/patterns-and-gradients/pattern-units/001';
-import PatternUnits002 from '../pages/patterns-and-gradients/pattern-units/002';
-import PatternContentUnits001 from '../pages/patterns-and-gradients/pattern-content-units/001';
+import PatternUnits01 from '../pages/patterns-and-gradients/pattern-units/01';
+import PatternUnits02 from '../pages/patterns-and-gradients/pattern-units/02';
+import PatternContentUnits01 from '../pages/patterns-and-gradients/pattern-content-units/01';
 import LinearGradientStop from '../pages/patterns-and-gradients/linear-gradient/stop';
 import LinearGradientStopOpacity from '../pages/patterns-and-gradients/linear-gradient/stop-opacity';
 import LinearGradientDirection from '../pages/patterns-and-gradients/linear-gradient/direction';
 import LinearGradientSpreadMethod from '../pages/patterns-and-gradients/linear-gradient/spread-method';
 import LinearGradientCircle from '../pages/patterns-and-gradients/linear-gradient/circle';
-import RadialGradient001 from '../pages/patterns-and-gradients/radial-gradient/001';
+import RadialGradient01 from '../pages/patterns-and-gradients/radial-gradient/01';
 import RadialGradientTransitionLimit from '../pages/patterns-and-gradients/radial-gradient/transition-limit';
 
 import TextIndex from '../pages/text/index';
@@ -130,29 +130,29 @@ export default [
         path: '/basic-shapes',
         component: BasicShapesIndex
     },{
-        path: '/basic-shapes/lines/001',
-        component: Lines001
+        path: '/basic-shapes/lines/01',
+        component: Lines01
     },{
-        path: '/basic-shapes/triangles/001',
-        component: Triangles001
+        path: '/basic-shapes/triangles/01',
+        component: Triangles01
     },{
-        path: '/basic-shapes/rectangles/001',
-        component: Rectangles001
+        path: '/basic-shapes/rectangles/01',
+        component: Rectangles01
     },{
-        path: '/basic-shapes/rectangles/002',
-        component: Rectangles002
+        path: '/basic-shapes/rectangles/02',
+        component: Rectangles02
     },{
-        path: '/basic-shapes/circles/001',
-        component: Circles001
+        path: '/basic-shapes/circles/01',
+        component: Circles01
     },{
-        path: '/basic-shapes/ellipses/001',
-        component: Ellipses001
+        path: '/basic-shapes/ellipses/01',
+        component: Ellipses01
     },{
-        path: '/basic-shapes/polygon/001',
-        component: Polygon001
+        path: '/basic-shapes/polygon/01',
+        component: Polygon01
     },{
-        path: '/basic-shapes/polyline/001',
-        component: Polyline001
+        path: '/basic-shapes/polyline/01',
+        component: Polyline01
     },
 
     {
@@ -182,66 +182,66 @@ export default [
         path: '/document-structure',
         component: DocStruIndex
     },{
-        path: '/document-structure/001',
-        component: DocStru001
+        path: '/document-structure/01',
+        component: DocStru01
     },
 
     {
         path: '/transforming-the-coordinate-system',
         component: TransformCoordinateIndex
     },{
-        path: '/transform-coordinate/translate/001',
-        component: Translate001
+        path: '/transform-coordinate/translate/01',
+        component: Translate01
     },{
-        path: '/transform-coordinate/scale/001',
-        component: Scale001
+        path: '/transform-coordinate/scale/01',
+        component: Scale01
     },{
-        path: '/transform-coordinate/scale/002',
-        component: Scale002
+        path: '/transform-coordinate/scale/02',
+        component: Scale02
     },{
-        path: '/transform-coordinate/scale/003',
-        component: Scale003
+        path: '/transform-coordinate/scale/03',
+        component: Scale03
     },{
-        path: '/transform-coordinate/rotate/001',
-        component: Rotate001
+        path: '/transform-coordinate/rotate/01',
+        component: Rotate01
     },{
-        path: '/transform-coordinate/rotate/002',
-        component: Rotate002
+        path: '/transform-coordinate/rotate/02',
+        component: Rotate02
     },{
-        path: '/transform-coordinate/skew/001',
-        component: Skew001
+        path: '/transform-coordinate/skew/01',
+        component: Skew01
     },{
-        path: '/transform-coordinate/sequences/001',
-        component: Sequences001
+        path: '/transform-coordinate/sequences/01',
+        component: Sequences01
     },{
-        path: '/transform-coordinate/cartesian/001',
-        component: Cartesian001
+        path: '/transform-coordinate/cartesian/01',
+        component: Cartesian01
     },{
-        path: '/transform-coordinate/instances/001',
-        component: TransformInstances001
+        path: '/transform-coordinate/instances/01',
+        component: TransformInstances01
     },
 
     {
         path: '/paths',
         component: PathsIndex
     },{
-        path: '/paths/moveto/001',
-        component: MoveTo001
+        path: '/paths/moveto/01',
+        component: MoveTo01
     },{
-        path: '/paths/closepath/001',
-        component: ClosePath001
+        path: '/paths/closepath/01',
+        component: ClosePath01
     },{
-        path: '/paths/relative/001',
-        component: Relative001
+        path: '/paths/relative/01',
+        component: Relative01
     },{
-        path: '/paths/horizontal/001',
-        component: HorizontalLineTo001
+        path: '/paths/horizontal/01',
+        component: HorizontalLineTo01
     },{
-        path: '/paths/vertical/001',
-        component: VerticalLineTo001
+        path: '/paths/vertical/01',
+        component: VerticalLineTo01
     },{
-        path: '/paths/elliptical-arc/001',
-        component: EllipticalArc001
+        path: '/paths/elliptical-arc/01',
+        component: EllipticalArc01
     },{
         path: '/paths/elliptical-arc/taichi',
         component: Taichi
@@ -252,25 +252,25 @@ export default [
         path: '/paths/bezier-curves/cubic',
         component: CubicBezierCurves
     },{
-        path: '/paths/filling/001',
+        path: '/paths/filling/01',
         component: PathsAndFilling
     },{
-        path: '/paths/marker/001',
-        component: Marker001
+        path: '/paths/marker/01',
+        component: Marker01
     },
 
     {
         path: '/patterns-and-gradients',
         component: PatternsAndGradientsIndex
     },{
-        path: '/patterns-and-gradients/pattern-units/001',
-        component: PatternUnits001
+        path: '/patterns-and-gradients/pattern-units/01',
+        component: PatternUnits01
     },{
-        path: '/patterns-and-gradients/pattern-units/002',
-        component: PatternUnits002
+        path: '/patterns-and-gradients/pattern-units/02',
+        component: PatternUnits02
     },{
-        path: '/patterns-and-gradients/pattern-content-units/001',
-        component: PatternContentUnits001
+        path: '/patterns-and-gradients/pattern-content-units/01',
+        component: PatternContentUnits01
     },{
         path: '/patterns-and-gradients/linear-gradient/stop',
         component: LinearGradientStop
@@ -287,8 +287,8 @@ export default [
         path: '/patterns-and-gradients/linear-gradient/circle',
         component: LinearGradientCircle
     },{
-        path: '/patterns-and-gradients/radial-gradient/001',
-        component: RadialGradient001
+        path: '/patterns-and-gradients/radial-gradient/01',
+        component: RadialGradient01
     },{
         path: '/patterns-and-gradients/radial-gradient/transition-limit',
         component: RadialGradientTransitionLimit

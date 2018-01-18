@@ -14,7 +14,7 @@
                         instances: [
                             {
                                 name: '示例',
-                                route: '/transform-coordinate/translate/001'
+                                route: '/transform-coordinate/translate/01'
                             }
                         ]
                     },{
@@ -22,32 +22,32 @@
                         instances: [
                             {
                                 name: '等比缩放',
-                                route: '/transform-coordinate/scale/001'
+                                route: '/transform-coordinate/scale/01'
                             },{
                                 name: '不等比缩放',
-                                route: '/transform-coordinate/scale/002'
+                                route: '/transform-coordinate/scale/02'
                             },{
                                 name: '围绕中心点缩放',
-                                route: '/transform-coordinate/scale/003'
+                                route: '/transform-coordinate/scale/03'
                             }
                         ]
                     },{
                         name: '旋转',
                         instances: [
                             {
-                                name: '001',
-                                route: '/transform-coordinate/rotate/001'
+                                name: '01',
+                                route: '/transform-coordinate/rotate/01'
                             },{
-                                name: '002',
-                                route: '/transform-coordinate/rotate/002'
+                                name: '02',
+                                route: '/transform-coordinate/rotate/02'
                             }
                         ]
                     },{
                         name: '倾斜',
                         instances: [
                             {
-                                name: '001',
-                                route: '/transform-coordinate/skew/001'
+                                name: '01',
+                                route: '/transform-coordinate/skew/01'
                             }
                         ]
                     },{
@@ -55,7 +55,7 @@
                         instances: [
                             {
                                 name: '实例',
-                                route: '/transform-coordinate/sequences/001'
+                                route: '/transform-coordinate/sequences/01'
                             }
                         ]
                     },{
@@ -63,7 +63,7 @@
                         instances: [
                             {
                                 name: '实例',
-                                route: '/transform-coordinate/cartesian/001'
+                                route: '/transform-coordinate/cartesian/01'
                             }
                         ]
                     },{
@@ -71,7 +71,7 @@
                         instances: [
                             {
                                 name: '花瓣',
-                                route: '/transform-coordinate/instances/001'
+                                route: '/transform-coordinate/instances/01'
                             }
                         ]
                     }

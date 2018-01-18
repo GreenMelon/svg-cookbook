@@ -14,7 +14,17 @@
             <!-- 不填充，保持透明 -->
             <li>
                 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
-                    <rect x="100" y="75" width="200" height="150" rx="0" ry="0" stroke-width="5" stroke="#000" fill="none" />
+                    <rect
+                        x="100"
+                        y="75"
+                        width="200"
+                        height="150"
+                        rx="0"
+                        ry="0"
+                        stroke-width="5"
+                        stroke="#000"
+                        fill="none"
+                    />
                 </svg>
             </li>
             <!-- 指定填充颜色 -->

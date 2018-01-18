@@ -14,7 +14,7 @@
                         instances: [
                             {
                                 name: '基础',
-                                route: '/document-structure/001'
+                                route: '/document-structure/01'
                             }
                         ]
                     }

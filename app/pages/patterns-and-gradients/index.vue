@@ -13,35 +13,35 @@
                         name: 'patternUnits',
                         instances: [
                             {
-                                name: '001 objectBoundingBox',
-                                route: '/patterns-and-gradients/pattern-units/001'
+                                name: '01 objectBoundingBox',
+                                route: '/patterns-and-gradients/pattern-units/01'
                             },{
-                                name: '002 userSpaceOnUse',
-                                route: '/patterns-and-gradients/pattern-units/002'
+                                name: '02 userSpaceOnUse',
+                                route: '/patterns-and-gradients/pattern-units/02'
                             }
                         ]
                     },{
                         name: 'patternContentUnits',
                         instances: [
                             {
-                                name: '001 objectBoundingBox',
-                                route: '/patterns-and-gradients/pattern-content-units/001'
+                                name: '01 objectBoundingBox',
+                                route: '/patterns-and-gradients/pattern-content-units/01'
                             }
                         ]
                     },{
                         name: 'linearGradient 线性渐变',
                         instances: [
                             {
-                                name: '001 stop',
+                                name: '01 stop',
                                 route: '/patterns-and-gradients/linear-gradient/stop'
                             },{
-                                name: '002 stop-opacity',
+                                name: '02 stop-opacity',
                                 route: '/patterns-and-gradients/linear-gradient/stop-opacity'
                             },{
-                                name: '003 direction',
+                                name: '03 direction',
                                 route: '/patterns-and-gradients/linear-gradient/direction'
                             },{
-                                name: '004 spreadMethod',
+                                name: '04 spreadMethod',
                                 route: '/patterns-and-gradients/linear-gradient/spread-method'
                             },{
                                 name: '渐变圆',
@@ -53,7 +53,7 @@
                         instances: [
                             {
                                 name: '简单例子',
-                                route: '/patterns-and-gradients/radial-gradient/001'
+                                route: '/patterns-and-gradients/radial-gradient/01'
                             },{
                                 name: '设置范围',
                                 route: '/patterns-and-gradients/radial-gradient/transition-limit'
