@@ -4,7 +4,10 @@
             <defs>
                 <pattern
                     id="tile"
-                    x="0" y="0" width="20%" height="20%"
+                    x="0"
+                    y="0"
+                    width="20%"
+                    height="20%"
                     patternUnits="objectBoundingBox"
                 >
                     <path d="M 0 0 Q 5 20 10 10 T 20 20" style="stroke: black; fill: none;" />
