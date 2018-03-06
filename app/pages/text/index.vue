@@ -8,7 +8,17 @@
     export default {
         data() {
             return {
-                categories: []
+                categories: [
+                    {
+                        name: '文本换行',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/text/wrap/01'
+                            }
+                        ]
+                    }
+                ]
             }
         }
     }
