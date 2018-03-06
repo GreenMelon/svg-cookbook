@@ -80,6 +80,7 @@ import RadialGradient01 from '../pages/patterns-and-gradients/radial-gradient/01
 import RadialGradientTransitionLimit from '../pages/patterns-and-gradients/radial-gradient/transition-limit';
 
 import TextIndex from '../pages/text/index';
+import WrapText01 from '../pages/text/wrap/01';
 
 export default [
     {
@@ -301,6 +302,9 @@ export default [
     {
         path: '/text',
         component: TextIndex
+    },{
+        path: '/text/wrap/01',
+        component: WrapText01
     },
 
     {
