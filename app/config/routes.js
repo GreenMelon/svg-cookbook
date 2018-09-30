@@ -82,6 +82,9 @@ import RadialGradientTransitionLimit from '../pages/patterns-and-gradients/radia
 import TextIndex from '../pages/text/index';
 import WrapText01 from '../pages/text/wrap/01';
 
+import CaseIndex from '../pages/case/index';
+import IsSvgTransparent from '../pages/case/other/is-svg-transparent';
+
 export default [
     {
         path: '/',
@@ -305,6 +308,14 @@ export default [
     },{
         path: '/text/wrap/01',
         component: WrapText01
+    },
+
+    {
+        path: '/case',
+        component: CaseIndex
+    },{
+        path: '/case/other/is-svg-transparent',
+        component: IsSvgTransparent
     },
 
     {
