@@ -6,7 +6,11 @@
     <div id="app">
         <aside>
             <ul class="mod-menu list-chapter">
-                <li v-for="chapter in chapters" class="item">
+                <li
+                    v-for="(chapter, index) in chapters"
+                    :key="index"
+                    class="item"
+                >
                     <router-link
                         :to="chapter.route"
                         :class="{active: $route.path.startsWith(chapter.route)}"
@@ -71,6 +75,9 @@
                     },{
                         name: 'DOM',
                         route: '/dom'
+                    },{
+                        name: 'CASE',
+                        route: '/case'
                     },{
                         name: '附录 - XML',
                         route: '/appendix-xml'
