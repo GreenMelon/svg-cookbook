@@ -40,5 +40,20 @@
 </template>
 
 <script>
-    export default {}
+    import $ from 'jquery';
+
+    export default {
+        methods: {
+            addSvg: function() {
+                var _this = this;
+                $.getJSON('./svg.json').then(function(el) {
+                    $.get('./1.svg').then(function(svg) {
+                        const parser = new XMLSerializer();
+                        const svgStr = parser.serializeToString(svg);
+                        el.content = svgStr;
+                    });
+                });
+            },
+        },
+    }
 </script>
