@@ -83,6 +83,7 @@ import TextIndex from '../pages/text/index';
 import WrapText01 from '../pages/text/wrap/01';
 
 import CaseIndex from '../pages/case/index';
+import IsSvgElement from '../pages/case/other/is-svg-element';
 import IsSvgTransparent from '../pages/case/other/is-svg-transparent';
 
 export default [
@@ -313,6 +314,9 @@ export default [
     {
         path: '/case',
         component: CaseIndex
+    },{
+        path: '/case/other/is-svg-element',
+        component: IsSvgElement
     },{
         path: '/case/other/is-svg-transparent',
         component: IsSvgTransparent
