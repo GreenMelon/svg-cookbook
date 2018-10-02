@@ -85,6 +85,7 @@ import WrapText01 from '../pages/text/wrap/01';
 import CaseIndex from '../pages/case/index';
 import IsSvgElement from '../pages/case/other/is-svg-element';
 import IsSvgTransparent from '../pages/case/other/is-svg-transparent';
+import SerializeSvg from '../pages/case/other/serialize-svg';
 
 export default [
     {
@@ -320,6 +321,9 @@ export default [
     },{
         path: '/case/other/is-svg-transparent',
         component: IsSvgTransparent
+    },{
+        path: '/case/other/serialize-svg',
+        component: SerializeSvg
     },
 
     {
