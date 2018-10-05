@@ -1,5 +1,4 @@
 <style lang="less" scoped>
-    @import '../../../less/page/basic-shapes/index.less';
 </style>
 
 <template>
