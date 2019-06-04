@@ -2,90 +2,90 @@
  * 定义路由
  */
 
-import NotFound from '../pages/index/404';
-import Index from '../pages/index/index';
+const NotFound = () => import('../pages/index/404');
+const Index = () => import('../pages/index/index');
 
-import GettingStartedIndex from '../pages/getting-started/index';
-import ImportByImg from '../pages/getting-started/import/img';
-import ImportByCss from '../pages/getting-started/import/css';
-import ImportByObject from '../pages/getting-started/import/object';
-import ImportByEmbed from '../pages/getting-started/import/embed';
-import ForeignObject from '../pages/getting-started/import/foreign-object';
-import InfileSvg from '../pages/getting-started/import/infile-svg';
-import XSLFO from '../pages/getting-started/import/XSL-FO';
+const GettingStartedIndex = () => import('../pages/getting-started/index');
+const ImportByImg = () => import('../pages/getting-started/import/img');
+const ImportByCss = () => import('../pages/getting-started/import/css');
+const ImportByObject = () => import('../pages/getting-started/import/object');
+const ImportByEmbed = () => import('../pages/getting-started/import/embed');
+const ForeignObject = () => import('../pages/getting-started/import/foreign-object');
+const InfileSvg = () => import('../pages/getting-started/import/infile-svg');
+const XSLFO = () => import('../pages/getting-started/import/XSL-FO');
 
-import CoordinatesIndex from '../pages/coordinates/index';
-import CoordinatesConcept from '../pages/coordinates/concept';
-import PreserveAspectRatio from '../pages/coordinates/preserve-aspect-ratio';
+const CoordinatesIndex = () => import('../pages/coordinates/index');
+const CoordinatesConcept = () => import('../pages/coordinates/concept');
+const PreserveAspectRatio = () => import('../pages/coordinates/preserve-aspect-ratio');
 
-import BasicShapesIndex from '../pages/basic-shapes/index';
-import Lines01 from '../pages/basic-shapes/lines/01';
-import Triangles01 from '../pages/basic-shapes/triangles/01';
-import Rectangles01 from '../pages/basic-shapes/rectangles/01';
-import Rectangles02 from '../pages/basic-shapes/rectangles/02';
-import Circles01 from '../pages/basic-shapes/circles/01';
-import Ellipses01 from '../pages/basic-shapes/ellipses/01';
-import Polygon01 from '../pages/basic-shapes/polygon/01';
-import Polyline01 from '../pages/basic-shapes/polyline/01';
+const BasicShapesIndex = () => import('../pages/basic-shapes/index');
+const Lines01 = () => import('../pages/basic-shapes/lines/01');
+const Triangles01 = () => import('../pages/basic-shapes/triangles/01');
+const Rectangles01 = () => import('../pages/basic-shapes/rectangles/01');
+const Rectangles02 = () => import('../pages/basic-shapes/rectangles/02');
+const Circles01 = () => import('../pages/basic-shapes/circles/01');
+const Ellipses01 = () => import('../pages/basic-shapes/ellipses/01');
+const Polygon01 = () => import('../pages/basic-shapes/polygon/01');
+const Polyline01 = () => import('../pages/basic-shapes/polyline/01');
 
-import StrokeWidth from '../pages/basic-shapes/stroke/width';
-import StrokeColor from '../pages/basic-shapes/stroke/color';
-import StrokeDasharray from '../pages/basic-shapes/stroke/dasharray';
-import StrokeLinecap from '../pages/basic-shapes/stroke/linecap';
-import StrokeLinejoin from '../pages/basic-shapes/stroke/linejoin';
+const StrokeWidth = () => import('../pages/basic-shapes/stroke/width');
+const StrokeColor = () => import('../pages/basic-shapes/stroke/color');
+const StrokeDasharray = () => import('../pages/basic-shapes/stroke/dasharray');
+const StrokeLinecap = () => import('../pages/basic-shapes/stroke/linecap');
+const StrokeLinejoin = () => import('../pages/basic-shapes/stroke/linejoin');
 
-import FillRule from '../pages/basic-shapes/fill/rule';
+const FillRule = () => import('../pages/basic-shapes/fill/rule');
 
-import ShapeRendering from '../pages/basic-shapes/stroke/shape-rendering';
+const ShapeRendering = () => import('../pages/basic-shapes/stroke/shape-rendering');
 
-import DocStruIndex from '../pages/document-structure/index';
-import DocStru01 from '../pages/document-structure/01';
+const DocStruIndex = () => import('../pages/document-structure/index');
+const DocStru01 = () => import('../pages/document-structure/01');
 
-import TransformCoordinateIndex from '../pages/transform-coordinate/index';
-import Translate01 from '../pages/transform-coordinate/translate/01';
-import Scale01 from '../pages/transform-coordinate/scale/01';
-import Scale02 from '../pages/transform-coordinate/scale/02';
-import Scale03 from '../pages/transform-coordinate/scale/03';
-import Rotate01 from '../pages/transform-coordinate/rotate/01';
-import Rotate02 from '../pages/transform-coordinate/rotate/02';
-import Skew01 from '../pages/transform-coordinate/skew/01';
-import Sequences01 from '../pages/transform-coordinate/sequences/01';
-import Cartesian01 from '../pages/transform-coordinate/cartesian/01';
-import TransformInstances01 from '../pages/transform-coordinate/instances/01';
+const TransformCoordinateIndex = () => import('../pages/transform-coordinate/index');
+const Translate01 = () => import('../pages/transform-coordinate/translate/01');
+const Scale01 = () => import('../pages/transform-coordinate/scale/01');
+const Scale02 = () => import('../pages/transform-coordinate/scale/02');
+const Scale03 = () => import('../pages/transform-coordinate/scale/03');
+const Rotate01 = () => import('../pages/transform-coordinate/rotate/01');
+const Rotate02 = () => import('../pages/transform-coordinate/rotate/02');
+const Skew01 = () => import('../pages/transform-coordinate/skew/01');
+const Sequences01 = () => import('../pages/transform-coordinate/sequences/01');
+const Cartesian01 = () => import('../pages/transform-coordinate/cartesian/01');
+const TransformInstances01 = () => import('../pages/transform-coordinate/instances/01');
 
-import PathsIndex from '../pages/paths/index';
-import MoveTo01 from '../pages/paths/moveto/01';
-import ClosePath01 from '../pages/paths/closepath/01';
-import Relative01 from '../pages/paths/relative/01';
-import HorizontalLineTo01 from '../pages/paths/horizontal/01';
-import VerticalLineTo01 from '../pages/paths/vertical/01';
-import EllipticalArc01 from '../pages/paths/elliptical-arc/01';
-import EllipticalArc02 from '../pages/paths/elliptical-arc/02';
-import Taichi from '../pages/paths/elliptical-arc/taichi';
-import QuadraticBezierCurves from '../pages/paths/bezier-curves/quadratic';
-import CubicBezierCurves from '../pages/paths/bezier-curves/cubic';
-import PathsAndFilling from '../pages/paths/filling/01';
-import Marker01 from '../pages/paths/marker/01';
+const PathsIndex = () => import('../pages/paths/index');
+const MoveTo01 = () => import('../pages/paths/moveto/01');
+const ClosePath01 = () => import('../pages/paths/closepath/01');
+const Relative01 = () => import('../pages/paths/relative/01');
+const HorizontalLineTo01 = () => import('../pages/paths/horizontal/01');
+const VerticalLineTo01 = () => import('../pages/paths/vertical/01');
+const EllipticalArc01 = () => import('../pages/paths/elliptical-arc/01');
+const EllipticalArc02 = () => import('../pages/paths/elliptical-arc/02');
+const Taichi = () => import('../pages/paths/elliptical-arc/taichi');
+const QuadraticBezierCurves = () => import('../pages/paths/bezier-curves/quadratic');
+const CubicBezierCurves = () => import('../pages/paths/bezier-curves/cubic');
+const PathsAndFilling = () => import('../pages/paths/filling/01');
+const Marker01 = () => import('../pages/paths/marker/01');
 
-import PatternsAndGradientsIndex from '../pages/patterns-and-gradients/index';
-import PatternUnits01 from '../pages/patterns-and-gradients/pattern-units/01';
-import PatternUnits02 from '../pages/patterns-and-gradients/pattern-units/02';
-import PatternContentUnits01 from '../pages/patterns-and-gradients/pattern-content-units/01';
-import LinearGradientStop from '../pages/patterns-and-gradients/linear-gradient/stop';
-import LinearGradientStopOpacity from '../pages/patterns-and-gradients/linear-gradient/stop-opacity';
-import LinearGradientDirection from '../pages/patterns-and-gradients/linear-gradient/direction';
-import LinearGradientSpreadMethod from '../pages/patterns-and-gradients/linear-gradient/spread-method';
-import LinearGradientCircle from '../pages/patterns-and-gradients/linear-gradient/circle';
-import RadialGradient01 from '../pages/patterns-and-gradients/radial-gradient/01';
-import RadialGradientTransitionLimit from '../pages/patterns-and-gradients/radial-gradient/transition-limit';
+const PatternsAndGradientsIndex = () => import('../pages/patterns-and-gradients/index');
+const PatternUnits01 = () => import('../pages/patterns-and-gradients/pattern-units/01');
+const PatternUnits02 = () => import('../pages/patterns-and-gradients/pattern-units/02');
+const PatternContentUnits01 = () => import('../pages/patterns-and-gradients/pattern-content-units/01');
+const LinearGradientStop = () => import('../pages/patterns-and-gradients/linear-gradient/stop');
+const LinearGradientStopOpacity = () => import('../pages/patterns-and-gradients/linear-gradient/stop-opacity');
+const LinearGradientDirection = () => import('../pages/patterns-and-gradients/linear-gradient/direction');
+const LinearGradientSpreadMethod = () => import('../pages/patterns-and-gradients/linear-gradient/spread-method');
+const LinearGradientCircle = () => import('../pages/patterns-and-gradients/linear-gradient/circle');
+const RadialGradient01 = () => import('../pages/patterns-and-gradients/radial-gradient/01');
+const RadialGradientTransitionLimit = () => import('../pages/patterns-and-gradients/radial-gradient/transition-limit');
 
-import TextIndex from '../pages/text/index';
-import WrapText01 from '../pages/text/wrap/01';
+const TextIndex = () => import('../pages/text/index');
+const WrapText01 = () => import('../pages/text/wrap/01');
 
-import CaseIndex from '../pages/case/index';
-import IsSvgElement from '../pages/case/other/is-svg-element';
-import IsSvgTransparent from '../pages/case/other/is-svg-transparent';
-import SerializeSvg from '../pages/case/other/serialize-svg';
+const CaseIndex = () => import('../pages/case/index');
+const IsSvgElement = () => import('../pages/case/other/is-svg-element');
+const IsSvgTransparent = () => import('../pages/case/other/is-svg-transparent');
+const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
 export default [
     {
