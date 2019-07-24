@@ -10,6 +10,14 @@
             return {
                 categories: [
                     {
+                        name: 'ribbon',
+                        instances: [
+                            {
+                                name: 'alphabets',
+                                route: '/case/ribbon/alphabet'
+                            }
+                        ]
+                    },{
                         name: '其他',
                         instances: [
                             {
