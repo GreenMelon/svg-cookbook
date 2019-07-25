@@ -1,15 +1,15 @@
 <template>
     <main>
-        <AlphabetC />
+        <alphabets />
     </main>
 </template>
 
 <script>
-    import AlphabetC from './alphabets/c';
+    import alphabets from './alphabets';
 
     export default {
         components: {
-            AlphabetC,
+            alphabets,
         },
     };
 </script>
