@@ -13,8 +13,8 @@
                         name: 'ribbon',
                         instances: [
                             {
-                                name: 'alphabets',
-                                route: '/case/ribbon/alphabet'
+                                name: 'name',
+                                route: '/case/ribbon/name'
                             }
                         ]
                     },{

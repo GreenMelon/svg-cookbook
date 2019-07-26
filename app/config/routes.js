@@ -83,7 +83,7 @@ const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
 
 const CaseIndex = () => import('../pages/case/index');
-const Alphabet = () => import('../pages/case/ribbon/alphabet');
+const RibbonName = () => import('../pages/case/ribbon/name');
 const IsSvgElement = () => import('../pages/case/other/is-svg-element');
 const IsSvgTransparent = () => import('../pages/case/other/is-svg-transparent');
 const SerializeSvg = () => import('../pages/case/other/serialize-svg');
@@ -317,8 +317,8 @@ export default [
         path: '/case',
         component: CaseIndex
     },{
-        path: '/case/ribbon/alphabet',
-        component: Alphabet
+        path: '/case/ribbon/name',
+        component: RibbonName
     },{
         path: '/case/other/is-svg-element',
         component: IsSvgElement
