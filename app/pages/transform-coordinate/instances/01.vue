@@ -15,6 +15,7 @@
 
                 <use
                     v-for="i in length"
+                    :key="i"
                     xlink:href="#petal"
                     :id="'petal' + i"
                 />
