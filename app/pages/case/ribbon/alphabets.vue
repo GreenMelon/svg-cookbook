@@ -1,9 +1,10 @@
 <template>
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="200"
-        :height="height"
-        :viewBox="`0 0 200 ${height}`"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        :width="totalWidth"
+        :height="totalHeight"
+        :viewBox="`0 0 ${totalWidth} ${totalHeight}`"
     >
         <defs>
             <polygon
@@ -34,26 +35,43 @@
         </defs>
 
         <defs>
-            <g id="a">
+            <g id="A">
                 <use xlink:href="#horizontal-top" />
                 <use xlink:href="#horizontal-bottom-square" />
                 <use xlink:href="#vertical-left" />
                 <use xlink:href="#vertical-right" />
             </g>
-            <g id="c">
+            <g id="C">
                 <use xlink:href="#horizontal-top" />
                 <use xlink:href="#horizontal-bottom" />
                 <use xlink:href="#vertical-left" />
             </g>
         </defs>
 
-        <use xlink:href="#a" />
-        <use xlink:href="#c" transform="translate(100, 0)" />
+        <template v-for="(word, index) in words">
+            <g
+                :key="index"
+                :transform="`translate(${(totalWidth - (word.length * width + (word.length - 1) * halfWidth)) / 2}, 0)`"
+            >
+                <use
+                    v-for="(letter, subIndex) in word"
+                    :key="`${index}-${subIndex}`"
+                    :xlink:href="`#${letter}`"
+                    :transform="`translate(${subIndex * (width + halfWidth)}, ${index * (height + halfHeight)})`"
+                />
+            </g>
+        </template>
     </svg>
 </template>
 
 <script>
 export default {
+    props: {
+        words: {
+            type: Array,
+        },
+    },
+
     data() {
         return {
             // sizes
@@ -81,12 +99,30 @@ export default {
             return this.widthTimes * this.unit;
         },
 
+        halfWidth() {
+            return this.width / 2;
+        },
+
         height() {
             return this.heightTimes * this.unit;
         },
 
         halfHeight() {
             return this.height / 2;
+        },
+
+        totalWidth() {
+            const max = this.words.reduce((prev, word) => {
+                return Math.max(prev, word.length);
+            }, 0);
+
+            return max * this.width + (max - 1) * this.halfWidth;
+        },
+
+        totalHeight() {
+            const row = this.words.length;
+
+            return row * this.height + (row - 1) * this.halfHeight;
         },
     },
 };
