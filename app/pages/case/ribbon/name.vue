@@ -28,7 +28,7 @@
 
         data() {
             return {
-                content: 'abcdefg\nhijklmn\nopq rst\nuvw xyz',
+                content: 'abcdefg\nhijklmn\nopq rst\nuvw xyz\n0123456789',
             };
         },
 
@@ -62,3 +62,28 @@
         },
     };
 </script>
+
+<style lang="less" scoped>
+#svg-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    textarea {
+        width: 400px;
+        height: 100px;
+        padding: 16px;
+    }
+    button {
+        margin-left: 50px;
+        height: 50px;
+        padding: 0 16px;
+        cursor: pointer;
+    }
+}
+</style>
