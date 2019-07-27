@@ -85,7 +85,6 @@ const WrapText01 = () => import('../pages/text/wrap/01');
 const CaseIndex = () => import('../pages/case/index');
 const RibbonName = () => import('../pages/case/ribbon/name');
 const IsSvgElement = () => import('../pages/case/other/is-svg-element');
-const IsSvgTransparent = () => import('../pages/case/other/is-svg-transparent');
 const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
 export default [
@@ -322,9 +321,6 @@ export default [
     },{
         path: '/case/other/is-svg-element',
         component: IsSvgElement
-    },{
-        path: '/case/other/is-svg-transparent',
-        component: IsSvgTransparent
     },{
         path: '/case/other/serialize-svg',
         component: SerializeSvg
