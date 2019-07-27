@@ -82,10 +82,14 @@ const RadialGradientTransitionLimit = () => import('../pages/patterns-and-gradie
 const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
 
+const Animation = () => import('../pages/animation/index');
+const Animation01 = () => import('../pages/animation/01');
+const Animation02 = () => import('../pages/animation/02');
+const Animation03 = () => import('../pages/animation/03');
+
 const CaseIndex = () => import('../pages/case/index');
 const RibbonName = () => import('../pages/case/ribbon/name');
 const IsSvgElement = () => import('../pages/case/other/is-svg-element');
-const IsSvgTransparent = () => import('../pages/case/other/is-svg-transparent');
 const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
 export default [
@@ -314,6 +318,20 @@ export default [
     },
 
     {
+        path: '/animation',
+        component: Animation
+    },{
+        path: '/animation/01',
+        component: Animation01
+    },{
+        path: '/animation/02',
+        component: Animation02
+    },{
+        path: '/animation/03',
+        component: Animation03
+    },
+
+    {
         path: '/case',
         component: CaseIndex
     },{
@@ -322,9 +340,6 @@ export default [
     },{
         path: '/case/other/is-svg-element',
         component: IsSvgElement
-    },{
-        path: '/case/other/is-svg-transparent',
-        component: IsSvgTransparent
     },{
         path: '/case/other/serialize-svg',
         component: SerializeSvg
