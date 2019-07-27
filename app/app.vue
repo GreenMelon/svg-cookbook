@@ -65,7 +65,7 @@
                         route: '/filters'
                     },{
                         name: '动画',
-                        route: '/animating-and-scripting-svg'
+                        route: '/animation'
                     },{
                         name: '生成',
                         route: '/generating-svg'
