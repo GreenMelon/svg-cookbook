@@ -83,9 +83,16 @@ const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
 
 const Animation = () => import('../pages/animation/index');
-const Animation01 = () => import('../pages/animation/01');
-const Animation02 = () => import('../pages/animation/02');
-const Animation03 = () => import('../pages/animation/03');
+const Animate01 = () => import('../pages/animation/animate/01');
+const Animate02 = () => import('../pages/animation/animate/02');
+const Animate03 = () => import('../pages/animation/animate/03');
+const Animate04 = () => import('../pages/animation/animate/04');
+const Animate05 = () => import('../pages/animation/animate/05');
+const Animate06 = () => import('../pages/animation/animate/06');
+const Animate07 = () => import('../pages/animation/animate/07');
+const Animate08 = () => import('../pages/animation/animate/08');
+const Animate09 = () => import('../pages/animation/animate/09');
+const Animate10 = () => import('../pages/animation/animate/10');
 
 const CaseIndex = () => import('../pages/case/index');
 const RibbonName = () => import('../pages/case/ribbon/name');
@@ -321,14 +328,35 @@ export default [
         path: '/animation',
         component: Animation
     },{
-        path: '/animation/01',
-        component: Animation01
+        path: '/animation/animate/01',
+        component: Animate01
     },{
-        path: '/animation/02',
-        component: Animation02
+        path: '/animation/animate/02',
+        component: Animate02
     },{
-        path: '/animation/03',
-        component: Animation03
+        path: '/animation/animate/03',
+        component: Animate03
+    },{
+        path: '/animation/animate/04',
+        component: Animate04
+    },{
+        path: '/animation/animate/05',
+        component: Animate05
+    },{
+        path: '/animation/animate/06',
+        component: Animate06
+    },{
+        path: '/animation/animate/07',
+        component: Animate07
+    },{
+        path: '/animation/animate/08',
+        component: Animate08
+    },{
+        path: '/animation/animate/09',
+        component: Animate09
+    },{
+        path: '/animation/animate/10',
+        component: Animate10
     },
 
     {
