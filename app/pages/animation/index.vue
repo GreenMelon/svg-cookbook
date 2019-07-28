@@ -44,6 +44,22 @@
                                 route: '/animation/animate/10'
                             }
                         ]
+                    },{
+                        name: 'animateTransform',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/animation/animate-transform/01'
+                            }
+                        ]
+                    },{
+                        name: 'animateMotion',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/animation/animate-motion/01'
+                            }
+                        ]
                     }
                 ]
             }

@@ -93,6 +93,8 @@ const Animate07 = () => import('../pages/animation/animate/07');
 const Animate08 = () => import('../pages/animation/animate/08');
 const Animate09 = () => import('../pages/animation/animate/09');
 const Animate10 = () => import('../pages/animation/animate/10');
+const AnimateTransform01 = () => import('../pages/animation/animate-transform/01');
+const AnimateMotion01 = () => import('../pages/animation/animate-motion/01');
 
 const CaseIndex = () => import('../pages/case/index');
 const RibbonName = () => import('../pages/case/ribbon/name');
@@ -357,6 +359,12 @@ export default [
     },{
         path: '/animation/animate/10',
         component: Animate10
+    },{
+        path: '/animation/animate-transform/01',
+        component: AnimateTransform01
+    },{
+        path: '/animation/animate-motion/01',
+        component: AnimateMotion01
     },
 
     {
