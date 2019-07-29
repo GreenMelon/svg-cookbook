@@ -58,8 +58,11 @@
                         name: '文本',
                         route: '/text'
                     },{
-                        name: '裁剪和蒙版',
-                        route: '/clipping-and-masking'
+                        name: '裁剪',
+                        route: '/clipping'
+                    },{
+                        name: '蒙版',
+                        route: '/mask'
                     },{
                         name: '滤镜',
                         route: '/filters'
