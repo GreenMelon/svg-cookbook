@@ -59,7 +59,7 @@
                         route: '/text'
                     },{
                         name: '裁剪',
-                        route: '/clipping'
+                        route: '/clip-path'
                     },{
                         name: '蒙版',
                         route: '/mask'
