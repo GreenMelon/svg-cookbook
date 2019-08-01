@@ -70,6 +70,9 @@
                         name: '动画',
                         route: '/animation'
                     },{
+                        name: '交互',
+                        route: '/interactivity'
+                    },{
                         name: '生成',
                         route: '/generating-svg'
                     },{

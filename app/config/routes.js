@@ -99,6 +99,13 @@ const Animate10 = () => import('../pages/animation/animate/10');
 const AnimateTransform01 = () => import('../pages/animation/animate-transform/01');
 const AnimateMotion01 = () => import('../pages/animation/animate-motion/01');
 
+const Interactivity = () => import('../pages/interactivity/index');
+const Links01 = () => import('../pages/interactivity/links/01');
+const Links02 = () => import('../pages/interactivity/links/02');
+const Animation01 = () => import('../pages/interactivity/animation/01');
+const UserTrigger01 = () => import('../pages/interactivity/user-trigger/01');
+const UserTrigger02 = () => import('../pages/interactivity/user-trigger/02');
+
 const CaseIndex = () => import('../pages/case/index');
 const RibbonName = () => import('../pages/case/ribbon/name');
 const IsSvgElement = () => import('../pages/case/other/is-svg-element');
@@ -376,6 +383,26 @@ export default [
     },{
         path: '/animation/animate-motion/01',
         component: AnimateMotion01
+    },
+
+    {
+        path: '/interactivity',
+        component: Interactivity
+    },{
+        path: '/interactivity/links/01',
+        component: Links01
+    },{
+        path: '/interactivity/links/02',
+        component: Links02
+    },{
+        path: '/interactivity/animation/01',
+        component: Animation01
+    },{
+        path: '/interactivity/user-trigger/01',
+        component: UserTrigger01
+    },{
+        path: '/interactivity/user-trigger/02',
+        component: UserTrigger02
     },
 
     {
