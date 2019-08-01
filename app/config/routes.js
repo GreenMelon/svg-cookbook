@@ -82,6 +82,10 @@ const RadialGradientTransitionLimit = () => import('../pages/patterns-and-gradie
 const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
 
+const ClipPath = () => import('../pages/clip-path/index');
+const ClipPath01 = () => import('../pages/clip-path/01');
+const ClipPath02 = () => import('../pages/clip-path/02');
+
 const MaskIndex = () => import('../pages/mask/index');
 const Mask01 = () => import('../pages/mask/01');
 
@@ -334,6 +338,17 @@ export default [
     },{
         path: '/text/wrap/01',
         component: WrapText01
+    },
+
+    {
+        path: '/clip-path',
+        component: ClipPath
+    },{
+        path: '/clip-path/01',
+        component: ClipPath01
+    },{
+        path: '/clip-path/02',
+        component: ClipPath02
     },
 
     {
