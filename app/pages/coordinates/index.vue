@@ -16,8 +16,14 @@
                                 name: '概念',
                                 route: '/coordinates/concept'
                             },{
-                                name: '保留宽高比',
-                                route: '/coordinates/preserve-aspect-ratio'
+                                name: 'preserve-aspect-ratio: meet',
+                                route: '/coordinates/preserve-aspect-ratio/meet'
+                            },{
+                                name: 'preserve-aspect-ratio: slice',
+                                route: '/coordinates/preserve-aspect-ratio/slice'
+                            },{
+                                name: 'preserve-aspect-ratio: none',
+                                route: '/coordinates/preserve-aspect-ratio/none'
                             }
                         ]
                     }

@@ -16,7 +16,9 @@ const XSLFO = () => import('../pages/getting-started/import/XSL-FO');
 
 const CoordinatesIndex = () => import('../pages/coordinates/index');
 const CoordinatesConcept = () => import('../pages/coordinates/concept');
-const PreserveAspectRatio = () => import('../pages/coordinates/preserve-aspect-ratio');
+const PreserveAspectRatioMeet = () => import('../pages/coordinates/preserve-aspect-ratio/meet');
+const PreserveAspectRatioSlice = () => import('../pages/coordinates/preserve-aspect-ratio/slice');
+const PreserveAspectRatioNone = () => import('../pages/coordinates/preserve-aspect-ratio/none');
 
 const BasicShapesIndex = () => import('../pages/basic-shapes/index');
 const Lines01 = () => import('../pages/basic-shapes/lines/01');
@@ -157,8 +159,14 @@ export default [
         path: '/coordinates/concept',
         component: CoordinatesConcept
     },{
-        path: '/coordinates/preserve-aspect-ratio',
-        component: PreserveAspectRatio
+        path: '/coordinates/preserve-aspect-ratio/meet',
+        component: PreserveAspectRatioMeet
+    },{
+        path: '/coordinates/preserve-aspect-ratio/slice',
+        component: PreserveAspectRatioSlice
+    },{
+        path: '/coordinates/preserve-aspect-ratio/none',
+        component: PreserveAspectRatioNone
     },
 
     {
