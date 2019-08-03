@@ -92,6 +92,17 @@
                             }
                         ]
                     },{
+                        name: '线条动画',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/basic-shapes/stroke/animation/01'
+                            },{
+                                name: '02',
+                                route: '/basic-shapes/stroke/animation/02'
+                            }
+                        ]
+                    },{
                         name: '填充特性',
                         instances: [
                             {
