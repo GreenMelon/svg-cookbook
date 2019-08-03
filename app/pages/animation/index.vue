@@ -58,6 +58,9 @@
                             {
                                 name: '01',
                                 route: '/animation/animate-motion/01'
+                            },{
+                                name: '02',
+                                route: '/animation/animate-motion/02'
                             }
                         ]
                     }

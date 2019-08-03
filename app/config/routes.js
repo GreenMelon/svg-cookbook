@@ -36,6 +36,9 @@ const StrokeDasharray = () => import('../pages/basic-shapes/stroke/dasharray');
 const StrokeLinecap = () => import('../pages/basic-shapes/stroke/linecap');
 const StrokeLinejoin = () => import('../pages/basic-shapes/stroke/linejoin');
 
+const StrokeAnimation01 = () => import('../pages/basic-shapes/stroke/animation/01');
+const StrokeAnimation02 = () => import('../pages/basic-shapes/stroke/animation/02');
+
 const FillRule = () => import('../pages/basic-shapes/fill/rule');
 
 const ShapeRendering = () => import('../pages/basic-shapes/stroke/shape-rendering');
@@ -104,6 +107,7 @@ const Animate09 = () => import('../pages/animation/animate/09');
 const Animate10 = () => import('../pages/animation/animate/10');
 const AnimateTransform01 = () => import('../pages/animation/animate-transform/01');
 const AnimateMotion01 = () => import('../pages/animation/animate-motion/01');
+const AnimateMotion02 = () => import('../pages/animation/animate-motion/02');
 
 const Interactivity = () => import('../pages/interactivity/index');
 const Links01 = () => import('../pages/interactivity/links/01');
@@ -216,6 +220,12 @@ export default [
     },{
         path: '/basic-shapes/stroke/linejoin',
         component: StrokeLinejoin
+    },{
+        path: '/basic-shapes/stroke/animation/01',
+        component: StrokeAnimation01
+    },{
+        path: '/basic-shapes/stroke/animation/02',
+        component: StrokeAnimation02
     },{
         path: '/basic-shapes/fill/rule',
         component: FillRule
@@ -406,6 +416,9 @@ export default [
     },{
         path: '/animation/animate-motion/01',
         component: AnimateMotion01
+    },{
+        path: '/animation/animate-motion/02',
+        component: AnimateMotion02
     },
 
     {
