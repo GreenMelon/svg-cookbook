@@ -121,6 +121,9 @@ const RibbonName = () => import('../pages/case/ribbon/name');
 const IsSvgElement = () => import('../pages/case/other/is-svg-element');
 const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
+const Lottie = () => import('../pages/lottie/index');
+const Lottie01 = () => import('../pages/lottie/01');
+
 export default [
     {
         path: '/',
@@ -453,6 +456,14 @@ export default [
     },{
         path: '/case/other/serialize-svg',
         component: SerializeSvg
+    },
+
+    {
+        path: '/lottie',
+        component: Lottie
+    },{
+        path: '/lottie/01',
+        component: Lottie01
     },
 
     {
