@@ -85,6 +85,9 @@
                         name: 'CASE',
                         route: '/case'
                     },{
+                        name: 'lottie',
+                        route: '/lottie'
+                    },{
                         name: '附录 - XML',
                         route: '/appendix-xml'
                     },{
