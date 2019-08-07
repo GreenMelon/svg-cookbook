@@ -123,6 +123,7 @@ const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
 const Lottie = () => import('../pages/lottie/index');
 const Lottie01 = () => import('../pages/lottie/01');
+const Lottie02 = () => import('../pages/lottie/02');
 
 export default [
     {
@@ -464,6 +465,9 @@ export default [
     },{
         path: '/lottie/01',
         component: Lottie01
+    },{
+        path: '/lottie/02',
+        component: Lottie02
     },
 
     {

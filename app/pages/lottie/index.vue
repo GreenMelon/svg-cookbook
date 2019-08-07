@@ -15,6 +15,9 @@
                             {
                                 name: '01',
                                 route: '/lottie/01'
+                            },{
+                                name: '02',
+                                route: '/lottie/02'
                             }
                         ]
                     }
