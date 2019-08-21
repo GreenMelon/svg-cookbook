@@ -17,6 +17,14 @@
                                 route: '/text/wrap/01'
                             }
                         ]
+                    },{
+                        name: '字体',
+                        instances: [
+                            {
+                                name: '01',
+                                route: '/text/font-family/01'
+                            }
+                        ]
                     }
                 ]
             }
