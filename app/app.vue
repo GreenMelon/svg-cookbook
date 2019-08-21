@@ -2,6 +2,10 @@
     @import './less/main.less';
 </style>
 
+<style lang="css">
+    @import './css/main.css';
+</style>
+
 <template>
     <div id="app">
         <aside>

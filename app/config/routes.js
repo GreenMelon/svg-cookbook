@@ -86,6 +86,7 @@ const RadialGradientTransitionLimit = () => import('../pages/patterns-and-gradie
 
 const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
+const FontFamily01 = () => import('../pages/text/font-family/01');
 
 const ClipPath = () => import('../pages/clip-path/index');
 const ClipPath01 = () => import('../pages/clip-path/01');
@@ -123,6 +124,7 @@ const SerializeSvg = () => import('../pages/case/other/serialize-svg');
 
 const Lottie = () => import('../pages/lottie/index');
 const Lottie01 = () => import('../pages/lottie/01');
+const Lottie02 = () => import('../pages/lottie/02');
 
 export default [
     {
@@ -359,6 +361,9 @@ export default [
     },{
         path: '/text/wrap/01',
         component: WrapText01
+    },{
+        path: '/text/font-family/01',
+        component: FontFamily01
     },
 
     {
@@ -464,6 +469,9 @@ export default [
     },{
         path: '/lottie/01',
         component: Lottie01
+    },{
+        path: '/lottie/02',
+        component: Lottie02
     },
 
     {
