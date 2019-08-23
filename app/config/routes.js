@@ -95,6 +95,9 @@ const ClipPath02 = () => import('../pages/clip-path/02');
 const MaskIndex = () => import('../pages/mask/index');
 const Mask01 = () => import('../pages/mask/01');
 
+const FiltersIndex = () => import('../pages/filters/index');
+const FeColorMatrix01 = () => import('../pages/filters/fe-color-matrix/01');
+
 const Animation = () => import('../pages/animation/index');
 const Animate01 = () => import('../pages/animation/animate/01');
 const Animate02 = () => import('../pages/animation/animate/02');
@@ -383,6 +386,14 @@ export default [
     },{
         path: '/mask/01',
         component: Mask01
+    },
+
+    {
+        path: '/filters',
+        component: FiltersIndex
+    },{
+        path: '/filters/fe-color-matrix/01',
+        component: FeColorMatrix01
     },
 
     {
