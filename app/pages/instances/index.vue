@@ -11,22 +11,25 @@
 export default {
     data() {
         return {
-            baseRoute: '/text',
+            baseRoute: '/instances',
             categories: [
                 {
-                    name: 'wrap',
-                    alias: '文本换行',
+                    name: 'ribbon',
                     children: [
                         {
-                            route: '01',
+                            route: 'name',
                         },
                     ],
                 }, {
-                    name: 'font-family',
-                    alias: '字体',
+                    name: 'other',
+                    alias: '其他',
                     children: [
                         {
-                            route: '01',
+                            alias: '判断是否是 SVG 元素',    
+                            route: 'is-svg-element',
+                        }, {
+                            alias: '解析 SVG',
+                            route: 'serialize-svg',
                         },
                     ],
                 },

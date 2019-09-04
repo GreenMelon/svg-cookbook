@@ -1,118 +1,123 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: '直线',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/basic-shapes/lines/01'
-                            }
-                        ]
-                    },{
-                        name: '三角形',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/basic-shapes/triangles/01'
-                            }
-                        ]
-                    },{
-                        name: '矩形',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/basic-shapes/rectangles/01'
-                            },{
-                                name: '圆角矩形',
-                                route: '/basic-shapes/rectangles/02'
-                            }
-                        ]
-                    },{
-                        name: '圆',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/basic-shapes/circles/01'
-                            }
-                        ]
-                    },{
-                        name: '椭圆',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/basic-shapes/ellipses/01'
-                            }
-                        ]
-                    },{
-                        name: '多边形',
-                        instances: [
-                            {
-                                name: '实例',
-                                route: '/basic-shapes/polygon/01'
-                            }
-                        ]
-                    },{
-                        name: '折线',
-                        instances: [
-                            {
-                                name: '实例',
-                                route: '/basic-shapes/polyline/01'
-                            }
-                        ]
-                    },{
-                        name: '笔画特性',
-                        instances: [
-                            {
-                                name: '笔画宽度',
-                                route: '/basic-shapes/stroke/width'
-                            },{
-                                name: '笔画颜色',
-                                route: '/basic-shapes/stroke/color'
-                            },{
-                                name: '点线与虚线',
-                                route: '/basic-shapes/stroke/dasharray'
-                            },{
-                                name: '锯齿与反锯齿',
-                                route: '/basic-shapes/stroke/shape-rendering'
-                            },{
-                                name: '头尾形状',
-                                route: '/basic-shapes/stroke/linecap'
-                            },{
-                                name: '线连接',
-                                route: '/basic-shapes/stroke/linejoin'
-                            }
-                        ]
-                    },{
-                        name: '线条动画',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/basic-shapes/stroke/animation/01'
-                            },{
-                                name: '02',
-                                route: '/basic-shapes/stroke/animation/02'
-                            }
-                        ]
-                    },{
-                        name: '填充特性',
-                        instances: [
-                            {
-                                name: '填充边线交叉',
-                                route: '/basic-shapes/fill/rule'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/basic-shapes',
+            categories: [
+                {
+                    name: 'lines',
+                    alias: '直线',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'triangles',
+                    alias: '三角形',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'rectangles',
+                    alias: '矩形',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            alias: '圆角矩形',
+                            route: '02',
+                        },
+                    ],
+                }, {
+                    name: 'circles',
+                    alias: '圆',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'ellipses',
+                    alias: '椭圆',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'polygon',
+                    alias: '多边形',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'polyline',
+                    alias: '折线',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'stroke',
+                    alias: '笔画特性',
+                    children: [
+                        {
+                            alias: '笔画宽度',
+                            route: 'width',
+                        }, {
+                            alias: '笔画颜色',
+                            route: 'color',
+                        }, {
+                            alias: '点线与虚线',
+                            route: 'dasharray',
+                        }, {
+                            alias: '锯齿与反锯齿',
+                            route: 'shape-rendering',
+                        }, {
+                            alias: '头尾形状',
+                            route: 'linecap',
+                        }, {
+                            alias: '线连接',
+                            route: 'linejoin',
+                        },
+                    ],
+                }, {
+                    name: 'stroke/animation',
+                    alias: '线条动画',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            route: '02',
+                        },
+                    ],
+                }, {
+                    name: 'fill',
+                    alias: '填充特性',
+                    children: [
+                        {
+                            alias: '填充边线交叉',
+                            route: 'rule',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>

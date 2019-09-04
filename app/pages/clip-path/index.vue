@@ -1,28 +1,30 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: '示例',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/clip-path/01'
-                            },{
-                                name: '02',
-                                route: '/clip-path/02'
-                            }
-                        ]
-                    }
-                ]
-            }
+export default {
+    data() {
+        return {
+            baseRoute: '/clip-path',
+            categories: [
+                {
+                    alias: '示例',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            route: '02',
+                        },
+                    ],
+                },
+            ],
         }
-    }
+    },
+}
 </script>

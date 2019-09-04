@@ -120,10 +120,10 @@ const Animation01 = () => import('../pages/interactivity/animation/01');
 const UserTrigger01 = () => import('../pages/interactivity/user-trigger/01');
 const UserTrigger02 = () => import('../pages/interactivity/user-trigger/02');
 
-const CaseIndex = () => import('../pages/case/index');
-const RibbonName = () => import('../pages/case/ribbon/name');
-const IsSvgElement = () => import('../pages/case/other/is-svg-element');
-const SerializeSvg = () => import('../pages/case/other/serialize-svg');
+const CaseIndex = () => import('../pages/instances/index');
+const RibbonName = () => import('../pages/instances/ribbon/name');
+const IsSvgElement = () => import('../pages/instances/other/is-svg-element');
+const SerializeSvg = () => import('../pages/instances/other/serialize-svg');
 
 const Lottie = () => import('../pages/lottie/index');
 const Lottie01 = () => import('../pages/lottie/01');
@@ -133,7 +133,7 @@ export default [
     {
         path: '/',
         redirect: '/index'
-    },{
+    }, {
         path: '/index',
         component: Index
     },
@@ -141,25 +141,25 @@ export default [
     {
         path: '/getting-started',
         component: GettingStartedIndex
-    },{
+    }, {
         path: '/getting-started/import/img',
         component: ImportByImg
-    },{
+    }, {
         path: '/getting-started/import/css',
         component: ImportByCss
-    },{
+    }, {
         path: '/getting-started/import/object',
         component: ImportByObject
-    },{
+    }, {
         path: '/getting-started/import/embed',
         component: ImportByEmbed
-    },{
+    }, {
         path: '/getting-started/import/foreign-object',
         component: ForeignObject
-    },{
+    }, {
         path: '/getting-started/import/infile-svg',
         component: InfileSvg
-    },{
+    }, {
         path: '/getting-started/import/XSL-FO',
         component: XSLFO
     },
@@ -167,16 +167,16 @@ export default [
     {
         path: '/coordinates',
         component: CoordinatesIndex
-    },{
+    }, {
         path: '/coordinates/concept',
         component: CoordinatesConcept
-    },{
+    }, {
         path: '/coordinates/preserve-aspect-ratio/meet',
         component: PreserveAspectRatioMeet
-    },{
+    }, {
         path: '/coordinates/preserve-aspect-ratio/slice',
         component: PreserveAspectRatioSlice
-    },{
+    }, {
         path: '/coordinates/preserve-aspect-ratio/none',
         component: PreserveAspectRatioNone
     },
@@ -184,28 +184,28 @@ export default [
     {
         path: '/basic-shapes',
         component: BasicShapesIndex
-    },{
+    }, {
         path: '/basic-shapes/lines/01',
         component: Lines01
-    },{
+    }, {
         path: '/basic-shapes/triangles/01',
         component: Triangles01
-    },{
+    }, {
         path: '/basic-shapes/rectangles/01',
         component: Rectangles01
-    },{
+    }, {
         path: '/basic-shapes/rectangles/02',
         component: Rectangles02
-    },{
+    }, {
         path: '/basic-shapes/circles/01',
         component: Circles01
-    },{
+    }, {
         path: '/basic-shapes/ellipses/01',
         component: Ellipses01
-    },{
+    }, {
         path: '/basic-shapes/polygon/01',
         component: Polygon01
-    },{
+    }, {
         path: '/basic-shapes/polyline/01',
         component: Polyline01
     },
@@ -213,28 +213,28 @@ export default [
     {
         path: '/basic-shapes/stroke/width',
         component: StrokeWidth
-    },{
+    }, {
         path: '/basic-shapes/stroke/color',
         component: StrokeColor
-    },{
+    }, {
         path: '/basic-shapes/stroke/dasharray',
         component: StrokeDasharray
-    },{
+    }, {
         path: '/basic-shapes/stroke/shape-rendering',
         component: ShapeRendering
-    },{
+    }, {
         path: '/basic-shapes/stroke/linecap',
         component: StrokeLinecap
-    },{
+    }, {
         path: '/basic-shapes/stroke/linejoin',
         component: StrokeLinejoin
-    },{
+    }, {
         path: '/basic-shapes/stroke/animation/01',
         component: StrokeAnimation01
-    },{
+    }, {
         path: '/basic-shapes/stroke/animation/02',
         component: StrokeAnimation02
-    },{
+    }, {
         path: '/basic-shapes/fill/rule',
         component: FillRule
     },
@@ -242,7 +242,7 @@ export default [
     {
         path: '/document-structure',
         component: DocStruIndex
-    },{
+    }, {
         path: '/document-structure/01',
         component: DocStru01
     },
@@ -250,34 +250,34 @@ export default [
     {
         path: '/transforming-the-coordinate-system',
         component: TransformCoordinateIndex
-    },{
+    }, {
         path: '/transform-coordinate/translate/01',
         component: Translate01
-    },{
+    }, {
         path: '/transform-coordinate/scale/01',
         component: Scale01
-    },{
+    }, {
         path: '/transform-coordinate/scale/02',
         component: Scale02
-    },{
+    }, {
         path: '/transform-coordinate/scale/03',
         component: Scale03
-    },{
+    }, {
         path: '/transform-coordinate/rotate/01',
         component: Rotate01
-    },{
+    }, {
         path: '/transform-coordinate/rotate/02',
         component: Rotate02
-    },{
+    }, {
         path: '/transform-coordinate/skew/01',
         component: Skew01
-    },{
+    }, {
         path: '/transform-coordinate/sequences/01',
         component: Sequences01
-    },{
+    }, {
         path: '/transform-coordinate/cartesian/01',
         component: Cartesian01
-    },{
+    }, {
         path: '/transform-coordinate/instances/01',
         component: TransformInstances01
     },
@@ -285,40 +285,40 @@ export default [
     {
         path: '/paths',
         component: PathsIndex
-    },{
+    }, {
         path: '/paths/moveto/01',
         component: MoveTo01
-    },{
+    }, {
         path: '/paths/closepath/01',
         component: ClosePath01
-    },{
+    }, {
         path: '/paths/relative/01',
         component: Relative01
-    },{
+    }, {
         path: '/paths/horizontal/01',
         component: HorizontalLineTo01
-    },{
+    }, {
         path: '/paths/vertical/01',
         component: VerticalLineTo01
-    },{
+    }, {
         path: '/paths/elliptical-arc/01',
         component: EllipticalArc01
-    },{
+    }, {
         path: '/paths/elliptical-arc/02',
         component: EllipticalArc02
-    },{
+    }, {
         path: '/paths/elliptical-arc/taichi',
         component: Taichi
-    },{
+    }, {
         path: '/paths/bezier-curves/quadratic',
         component: QuadraticBezierCurves
-    },{
+    }, {
         path: '/paths/bezier-curves/cubic',
         component: CubicBezierCurves
-    },{
+    }, {
         path: '/paths/filling/01',
         component: PathsAndFilling
-    },{
+    }, {
         path: '/paths/marker/01',
         component: Marker01
     },
@@ -326,34 +326,34 @@ export default [
     {
         path: '/patterns-and-gradients',
         component: PatternsAndGradientsIndex
-    },{
+    }, {
         path: '/patterns-and-gradients/pattern-units/01',
         component: PatternUnits01
-    },{
+    }, {
         path: '/patterns-and-gradients/pattern-units/02',
         component: PatternUnits02
-    },{
+    }, {
         path: '/patterns-and-gradients/pattern-content-units/01',
         component: PatternContentUnits01
-    },{
+    }, {
         path: '/patterns-and-gradients/linear-gradient/stop',
         component: LinearGradientStop
-    },{
+    }, {
         path: '/patterns-and-gradients/linear-gradient/stop-opacity',
         component: LinearGradientStopOpacity
-    },{
+    }, {
         path: '/patterns-and-gradients/linear-gradient/direction',
         component: LinearGradientDirection
-    },{
+    }, {
         path: '/patterns-and-gradients/linear-gradient/spread-method',
         component: LinearGradientSpreadMethod
-    },{
+    }, {
         path: '/patterns-and-gradients/linear-gradient/circle',
         component: LinearGradientCircle
-    },{
+    }, {
         path: '/patterns-and-gradients/radial-gradient/01',
         component: RadialGradient01
-    },{
+    }, {
         path: '/patterns-and-gradients/radial-gradient/transition-limit',
         component: RadialGradientTransitionLimit
     },
@@ -361,10 +361,10 @@ export default [
     {
         path: '/text',
         component: TextIndex
-    },{
+    }, {
         path: '/text/wrap/01',
         component: WrapText01
-    },{
+    }, {
         path: '/text/font-family/01',
         component: FontFamily01
     },
@@ -372,10 +372,10 @@ export default [
     {
         path: '/clip-path',
         component: ClipPath
-    },{
+    }, {
         path: '/clip-path/01',
         component: ClipPath01
-    },{
+    }, {
         path: '/clip-path/02',
         component: ClipPath02
     },
@@ -383,7 +383,7 @@ export default [
     {
         path: '/mask',
         component: MaskIndex
-    },{
+    }, {
         path: '/mask/01',
         component: Mask01
     },
@@ -391,7 +391,7 @@ export default [
     {
         path: '/filters',
         component: FiltersIndex
-    },{
+    }, {
         path: '/filters/fe-color-matrix/01',
         component: FeColorMatrix01
     },
@@ -399,43 +399,43 @@ export default [
     {
         path: '/animation',
         component: Animation
-    },{
+    }, {
         path: '/animation/animate/01',
         component: Animate01
-    },{
+    }, {
         path: '/animation/animate/02',
         component: Animate02
-    },{
+    }, {
         path: '/animation/animate/03',
         component: Animate03
-    },{
+    }, {
         path: '/animation/animate/04',
         component: Animate04
-    },{
+    }, {
         path: '/animation/animate/05',
         component: Animate05
-    },{
+    }, {
         path: '/animation/animate/06',
         component: Animate06
-    },{
+    }, {
         path: '/animation/animate/07',
         component: Animate07
-    },{
+    }, {
         path: '/animation/animate/08',
         component: Animate08
-    },{
+    }, {
         path: '/animation/animate/09',
         component: Animate09
-    },{
+    }, {
         path: '/animation/animate/10',
         component: Animate10
-    },{
+    }, {
         path: '/animation/animate-transform/01',
         component: AnimateTransform01
-    },{
+    }, {
         path: '/animation/animate-motion/01',
         component: AnimateMotion01
-    },{
+    }, {
         path: '/animation/animate-motion/02',
         component: AnimateMotion02
     },
@@ -443,44 +443,44 @@ export default [
     {
         path: '/interactivity',
         component: Interactivity
-    },{
+    }, {
         path: '/interactivity/links/01',
         component: Links01
-    },{
+    }, {
         path: '/interactivity/links/02',
         component: Links02
-    },{
+    }, {
         path: '/interactivity/animation/01',
         component: Animation01
-    },{
+    }, {
         path: '/interactivity/user-trigger/01',
         component: UserTrigger01
-    },{
+    }, {
         path: '/interactivity/user-trigger/02',
         component: UserTrigger02
     },
 
     {
-        path: '/case',
+        path: '/instances',
         component: CaseIndex
-    },{
-        path: '/case/ribbon/name',
+    }, {
+        path: '/instances/ribbon/name',
         component: RibbonName
-    },{
-        path: '/case/other/is-svg-element',
+    }, {
+        path: '/instances/other/is-svg-element',
         component: IsSvgElement
-    },{
-        path: '/case/other/serialize-svg',
+    }, {
+        path: '/instances/other/serialize-svg',
         component: SerializeSvg
     },
 
     {
         path: '/lottie',
         component: Lottie
-    },{
+    }, {
         path: '/lottie/01',
         component: Lottie01
-    },{
+    }, {
         path: '/lottie/02',
         component: Lottie02
     },

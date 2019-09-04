@@ -1,34 +1,38 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: '基础',
-                        instances: [
-                            {
-                                name: '概念',
-                                route: '/coordinates/concept'
-                            },{
-                                name: 'preserve-aspect-ratio: meet',
-                                route: '/coordinates/preserve-aspect-ratio/meet'
-                            },{
-                                name: 'preserve-aspect-ratio: slice',
-                                route: '/coordinates/preserve-aspect-ratio/slice'
-                            },{
-                                name: 'preserve-aspect-ratio: none',
-                                route: '/coordinates/preserve-aspect-ratio/none'
-                            }
-                        ]
-                    }
-                ]
-            }
+export default {
+    data() {
+        return {
+            baseRoute: '/coordinates',
+            categories: [
+                {
+                    alias: '基础',
+                    children: [
+                        {
+                            alias: '概念',
+                            route: 'concept',
+                        }, {
+                            alias: 'preserve-aspect-ratio: meet',
+                            route: 'preserve-aspect-ratio/meet',
+                        }, {
+                            alias: 'preserve-aspect-ratio: slice',
+                            route: 'preserve-aspect-ratio/slice',
+                        }, {
+                            alias: 'preserve-aspect-ratio: none',
+                            route: 'preserve-aspect-ratio/none',
+                        },
+                    ],
+                },
+            ],
         }
-    }
+    },
+}
 </script>
