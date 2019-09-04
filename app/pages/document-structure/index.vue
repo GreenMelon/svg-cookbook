@@ -1,25 +1,28 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: '文档结构',
-                        instances: [
-                            {
-                                name: '基础',
-                                route: '/document-structure/01'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/document-structure',
+            categories: [
+                {
+                    alias: '文档结构',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>

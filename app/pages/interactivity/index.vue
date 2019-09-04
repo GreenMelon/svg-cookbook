@@ -1,47 +1,48 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'links',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/interactivity/links/01'
-                            },{
-                                name: '02 style',
-                                route: '/interactivity/links/02'
-                            }
-                        ]
-                    },{
-                        name: 'animation',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/interactivity/animation/01'
-                            }
-                        ]
-                    },{
-                        name: 'user-trigger',
-                        instances: [
-                            {
-                                name: 'click',
-                                route: '/interactivity/user-trigger/01'
-                            },{
-                                name: 'addEventListener',
-                                route: '/interactivity/user-trigger/02'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/interactivity',
+            categories: [
+                {
+                    name: 'links',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            route: '02',
+                        },
+                    ],
+                }, {
+                    name: 'animation',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'user-trigger',
+                    children: [
+                        {
+                            alias: 'click',
+                            route: '01',
+                        }, {
+                            alias: 'addEventListener',
+                            route: '02',
+                        },
+                    ],
+                }
+            ],
+        }
+    },
+}
 </script>

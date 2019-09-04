@@ -1,71 +1,74 @@
 <template>
     <main>
-        <categories :categories="categories"></categories>
+        <categories
+            :base-route="baseRoute"
+            :categories="categories"
+        />
     </main>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                categories: [
-                    {
-                        name: 'animate',
-                        instances: [
-                            {
-                                name: '简单的宽度变化',
-                                route: '/animation/animate/01'
-                            },{
-                                name: '同步动画',
-                                route: '/animation/animate/02'
-                            },{
-                                name: 'end 属性',
-                                route: '/animation/animate/03'
-                            },{
-                                name: '重复动作 repeatCount',
-                                route: '/animation/animate/04'
-                            },{
-                                name: '重复动作 repeatDur',
-                                route: '/animation/animate/05'
-                            },{
-                                name: '重复动作的同步动画',
-                                route: '/animation/animate/06'
-                            },{
-                                name: '多属性动画',
-                                route: '/animation/animate/07'
-                            },{
-                                name: '路径和多边形动画',
-                                route: '/animation/animate/08'
-                            },{
-                                name: '动画过渡值',
-                                route: '/animation/animate/09'
-                            },{
-                                name: 'set',
-                                route: '/animation/animate/10'
-                            }
-                        ]
-                    },{
-                        name: 'animateTransform',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/animation/animate-transform/01'
-                            }
-                        ]
-                    },{
-                        name: 'animateMotion',
-                        instances: [
-                            {
-                                name: '01',
-                                route: '/animation/animate-motion/01'
-                            },{
-                                name: '02',
-                                route: '/animation/animate-motion/02'
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            baseRoute: '/animation',
+            categories: [
+                {
+                    name: 'animate',
+                    children: [
+                        {
+                            alias: '简单的宽度变化',
+                            route: '01',
+                        }, {
+                            alias: '同步动画',
+                            route: '02',
+                        }, {
+                            alias: 'end 属性',
+                            route: '03',
+                        }, {
+                            alias: '重复动作 repeatCount',
+                            route: '04',
+                        }, {
+                            alias: '重复动作 repeatDur',
+                            route: '05',
+                        }, {
+                            alias: '重复动作的同步动画',
+                            route: '06',
+                        }, {
+                            alias: '多属性动画',
+                            route: '07',
+                        }, {
+                            alias: '路径和多边形动画',
+                            route: '08',
+                        }, {
+                            alias: '动画过渡值',
+                            route: '09',
+                        }, {
+                            alias: 'set',
+                            route: '10',
+                        },
+                    ]
+                }, {
+                    name: 'animate-transform',
+                    alias: 'animateTransform',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
+                }, {
+                    name: 'animate-motion',
+                    alias: 'animateMotion',
+                    children: [
+                        {
+                            route: '01',
+                        }, {
+                            route: '02',
+                        },
+                    ],
+                },
+            ],
+        }
+    },
+}
 </script>
