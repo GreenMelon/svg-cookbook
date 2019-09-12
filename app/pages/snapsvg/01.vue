@@ -17,11 +17,13 @@
 </template>
 
 <script>
-import { loadScript } from '@/utils';
+import Base from './base.js';
 
 export default {
+    mixins: [Base],
+
     data() {
-        return {}
+        return {};
     },
 
     mounted() {
@@ -36,13 +38,6 @@ export default {
                 });
             });
         });
-    },
-
-    methods: {
-        init() {
-            const url = 'https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js';
-            return loadScript(url).then(() => {});
-        },
     },
 }
 </script>
