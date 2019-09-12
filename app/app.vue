@@ -76,6 +76,9 @@
                     }, {
                         name: 'lottie',
                         route: '/lottie'
+                    }, {
+                        name: 'Snap.svg',
+                        route: '/snapsvg'
                     },
 
                     // {
