@@ -28,6 +28,12 @@ export default {
                         }, {
                             alias: 'svg.paper.path',
                             route: '04',
+                        }, {
+                            alias: '简单曲线描边动画',
+                            route: '05',
+                        }, {
+                            alias: '路径跟随动画',
+                            route: '06',
                         },
                     ],
                 },

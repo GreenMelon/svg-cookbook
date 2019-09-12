@@ -134,6 +134,8 @@ const Snapsvg01 = () => import('../pages/snapsvg/01');
 const Snapsvg02 = () => import('../pages/snapsvg/02');
 const Snapsvg03 = () => import('../pages/snapsvg/03');
 const Snapsvg04 = () => import('../pages/snapsvg/04');
+const Snapsvg05 = () => import('../pages/snapsvg/05');
+const Snapsvg06 = () => import('../pages/snapsvg/06');
 
 export default [
     {
@@ -506,6 +508,12 @@ export default [
     }, {
         path: '/snapsvg/04',
         component: Snapsvg04
+    }, {
+        path: '/snapsvg/05',
+        component: Snapsvg05
+    }, {
+        path: '/snapsvg/06',
+        component: Snapsvg06
     },
 
     {
