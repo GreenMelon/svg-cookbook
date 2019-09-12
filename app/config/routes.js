@@ -131,6 +131,7 @@ const Lottie02 = () => import('../pages/lottie/02');
 
 const Snapsvg = () => import('../pages/snapsvg/index');
 const Snapsvg01 = () => import('../pages/snapsvg/01');
+const Snapsvg02 = () => import('../pages/snapsvg/02');
 
 export default [
     {
@@ -494,6 +495,9 @@ export default [
     }, {
         path: '/snapsvg/01',
         component: Snapsvg01
+    }, {
+        path: '/snapsvg/02',
+        component: Snapsvg02
     },
 
     {
