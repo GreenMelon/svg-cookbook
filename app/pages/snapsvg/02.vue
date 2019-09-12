@@ -39,6 +39,10 @@ export default {
             circle.click(function() {
                 alert('hello');
             });
+
+            // image
+            const url = 'https://st-gdx.dancf.com/gaodingx/47/design/20190715-181520-db65.png';
+            svg.paper.image(url, 50, 50, 100, 100);
         });
     },
 };
