@@ -17,10 +17,17 @@ export default {
                     alias: '实例',
                     children: [
                         {
+                            alias: 'svg.paper',
                             route: '01',
-                        },{
-                            alias: 'paper',
+                        }, {
+                            alias: 'element.animate',
                             route: '02',
+                        }, {
+                            alias: 'Snap.animate',
+                            route: '03',
+                        }, {
+                            alias: 'svg.paper.path',
+                            route: '04',
                         },
                     ],
                 },
