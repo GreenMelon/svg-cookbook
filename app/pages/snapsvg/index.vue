@@ -18,6 +18,9 @@ export default {
                     children: [
                         {
                             route: '01',
+                        },{
+                            alias: 'paper',
+                            route: '02',
                         },
                     ],
                 },

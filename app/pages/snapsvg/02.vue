@@ -5,18 +5,12 @@
             width="600"
             id="svg"
         >
-            <circle
-                cx="60"
-                cy="60"
-                r="60"
-                style="fill: #007dd4;"
-            >
-            </circle>
         </svg>
     </main>
 </template>
 
 <script>
+// import snap from 'snapsvg';
 import { loadScript } from '@/utils';
 
 export default {
@@ -27,13 +21,20 @@ export default {
     mounted() {
         this.init().then(() => {
             const svg = Snap('#svg');
+
+            // create
+            svg.paper.circle({
+                cx: 50,
+                cy: 50,
+                r: 50,
+                fill: '#f00',
+                id: 'circle',
+            });
+
+            // event
             const circle = svg.select('circle');
             circle.click(function() {
-                console.log('animation begin');
-
-                circle.animate({cx: 160}, 1000, mina.easeout(), function() {
-                    console.log('animation end');
-                });
+                alert('hello');
             });
         });
     },
