@@ -34,6 +34,12 @@ export default {
                         }, {
                             alias: '路径跟随动画',
                             route: '06',
+                        }, {
+                            alias: 'Snap.Matrix 位移动画',
+                            route: '07',
+                        }, {
+                            alias: 'Snap.Matrix 位移旋转复合动画',
+                            route: '08',
                         },
                     ],
                 },
