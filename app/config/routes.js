@@ -132,6 +132,10 @@ const Lottie02 = () => import('../pages/lottie/02');
 const Snapsvg = () => import('../pages/snapsvg/index');
 const Snapsvg01 = () => import('../pages/snapsvg/01');
 const Snapsvg02 = () => import('../pages/snapsvg/02');
+const Snapsvg03 = () => import('../pages/snapsvg/03');
+const Snapsvg04 = () => import('../pages/snapsvg/04');
+const Snapsvg05 = () => import('../pages/snapsvg/05');
+const Snapsvg06 = () => import('../pages/snapsvg/06');
 
 export default [
     {
@@ -498,6 +502,18 @@ export default [
     }, {
         path: '/snapsvg/02',
         component: Snapsvg02
+    }, {
+        path: '/snapsvg/03',
+        component: Snapsvg03
+    }, {
+        path: '/snapsvg/04',
+        component: Snapsvg04
+    }, {
+        path: '/snapsvg/05',
+        component: Snapsvg05
+    }, {
+        path: '/snapsvg/06',
+        component: Snapsvg06
     },
 
     {

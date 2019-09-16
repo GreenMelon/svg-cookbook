@@ -32,7 +32,9 @@ export default {
             circle.click(function() {
                 console.log('animation begin');
 
-                circle.animate({cx: 150}, 1000, mina.easeout(), function() {
+                Snap.animate(50, 150, function(val) {
+                    circle.attr({ cx: val });
+                }, 1000, mina.easeout(), function() {
                     console.log('animation end');
                 });
             });

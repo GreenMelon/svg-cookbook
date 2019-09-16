@@ -5,13 +5,6 @@
             width="600"
             id="svg"
         >
-            <circle
-                cx="60"
-                cy="60"
-                r="60"
-                style="fill: #007dd4;"
-            >
-            </circle>
         </svg>
     </main>
 </template>
@@ -27,17 +20,26 @@ export default {
     },
 
     mounted() {
-        this.init().then(() => {
-            const svg = Snap('#svg');
+        this.loadSnapSvg().then(svg => {
+            // create
+            svg.paper.circle({
+                cx: 50,
+                cy: 50,
+                r: 50,
+                fill: '#f00',
+                id: 'circle',
+            });
+
+            // event
             const circle = svg.select('circle');
             circle.click(function() {
-                console.log('animation begin');
-
-                circle.animate({cx: 160}, 1000, mina.easeout(), function() {
-                    console.log('animation end');
-                });
+                alert('hello');
             });
+
+            // image
+            const url = 'https://st-gdx.dancf.com/gaodingx/47/design/20190715-181520-db65.png';
+            svg.paper.image(url, 50, 50, 100, 100);
         });
     },
-}
+};
 </script>
