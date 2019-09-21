@@ -10,7 +10,7 @@
                 <animate
                     attributeName="cx"
                     attributeType="XML"
-                    to="160"
+                    values="60;100;160;100;60"
                     begin="1s"
                     dur="2s"
                     fill="freeze"
