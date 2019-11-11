@@ -87,6 +87,7 @@ const RadialGradientTransitionLimit = () => import('../pages/patterns-and-gradie
 const TextIndex = () => import('../pages/text/index');
 const WrapText01 = () => import('../pages/text/wrap/01');
 const FontFamily01 = () => import('../pages/text/font-family/01');
+const TextColor01 = () => import('../pages/text/color/01');
 
 const ClipPath = () => import('../pages/clip-path/index');
 const ClipPath01 = () => import('../pages/clip-path/01');
@@ -377,6 +378,9 @@ export default [
     }, {
         path: '/text/font-family/01',
         component: FontFamily01
+    }, {
+        path: '/text/color/01',
+        component: TextColor01
     },
 
     {

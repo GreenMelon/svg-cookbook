@@ -29,6 +29,14 @@ export default {
                             route: '01',
                         },
                     ],
+                }, {
+                    name: 'color',
+                    alias: '着色',
+                    children: [
+                        {
+                            route: '01',
+                        },
+                    ],
                 },
             ],
         }
