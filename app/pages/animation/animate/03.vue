@@ -25,5 +25,6 @@
 </template>
 
 <script>
-    export default {}
+// end 属性
+export default {}
 </script>

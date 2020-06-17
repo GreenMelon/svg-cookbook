@@ -33,5 +33,6 @@
 </template>
 
 <script>
-    export default {}
+// 路径和多边形动画
+export default {}
 </script>

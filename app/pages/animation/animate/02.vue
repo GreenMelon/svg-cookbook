@@ -39,5 +39,6 @@
 </template>
 
 <script>
-    export default {}
+// 同步动画
+export default {}
 </script>

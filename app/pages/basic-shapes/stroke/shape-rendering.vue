@@ -9,5 +9,6 @@
 </template>
 
 <script>
-    export default {};
+// 锯齿与反锯齿
+export default {};
 </script>

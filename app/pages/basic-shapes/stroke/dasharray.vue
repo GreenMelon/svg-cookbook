@@ -28,5 +28,6 @@
 </template>
 
 <script>
-    export default {};
+// 点线与虚线
+export default {};
 </script>
