@@ -1,48 +1,14 @@
-<template>
-    <main>
-        <categories
-            :base-route="baseRoute"
-            :categories="categories"
-        />
-    </main>
-</template>
-
 <script>
-export default {
+import Vue from 'vue';
+import Catalogue from '@/components/catalogue';
+
+export default Vue.extend({
+    mixins: [Catalogue],
+
     data() {
         return {
-            baseRoute: '/interactivity',
-            categories: [
-                {
-                    name: 'links',
-                    children: [
-                        {
-                            route: '01',
-                        }, {
-                            route: '02',
-                        },
-                    ],
-                }, {
-                    name: 'animation',
-                    children: [
-                        {
-                            route: '01',
-                        },
-                    ],
-                }, {
-                    name: 'user-trigger',
-                    children: [
-                        {
-                            alias: 'click',
-                            route: '01',
-                        }, {
-                            alias: 'addEventListener',
-                            route: '02',
-                        },
-                    ],
-                }
-            ],
-        }
+            dir: 'interactivity',
+        };
     },
-}
+});
 </script>

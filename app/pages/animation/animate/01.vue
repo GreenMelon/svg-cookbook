@@ -24,5 +24,6 @@
 </template>
 
 <script>
-    export default {}
+// 简单的宽度变化
+export default {}
 </script>

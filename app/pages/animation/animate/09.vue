@@ -38,19 +38,20 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                options: [
-                    'linear',
-                    'paced',
-                    'discrete',
-                    'spline',
-                    '0;0.33;0.66;1'
-                ],
-            }
-        },
-    }
+// 动画过渡值
+export default {
+    data() {
+        return {
+            options: [
+                'linear',
+                'paced',
+                'discrete',
+                'spline',
+                '0;0.33;0.66;1'
+            ],
+        }
+    },
+}
 </script>
 
 <style scoped>

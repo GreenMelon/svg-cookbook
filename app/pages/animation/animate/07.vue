@@ -31,5 +31,6 @@
 </template>
 
 <script>
-    export default {}
+// 多属性动画
+export default {}
 </script>

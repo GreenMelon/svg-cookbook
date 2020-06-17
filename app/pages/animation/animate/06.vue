@@ -40,5 +40,6 @@
 </template>
 
 <script>
-    export default {}
+// 重复动作的同步动画
+export default {}
 </script>

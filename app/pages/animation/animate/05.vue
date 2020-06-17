@@ -22,5 +22,6 @@
 </template>
 
 <script>
-    export default {}
+// 重复动作 repeatDur
+export default {}
 </script>
