@@ -39,6 +39,7 @@
 </template>
 
 <script>
-// 同步动画
-export default {}
+export default {
+    alias: '同步动画',
+}
 </script>

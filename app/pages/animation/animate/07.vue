@@ -31,6 +31,7 @@
 </template>
 
 <script>
-// 多属性动画
-export default {}
+export default {
+    alias: '多属性动画',
+}
 </script>

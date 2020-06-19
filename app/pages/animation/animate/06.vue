@@ -40,6 +40,7 @@
 </template>
 
 <script>
-// 重复动作的同步动画
-export default {}
+export default {
+    alias: '重复动作的同步动画',
+}
 </script>

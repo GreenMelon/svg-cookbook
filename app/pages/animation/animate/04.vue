@@ -22,6 +22,7 @@
 </template>
 
 <script>
-// 重复动作 repeatCount
-export default {}
+export default {
+    alias: '重复动作 repeatCount',
+}
 </script>

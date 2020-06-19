@@ -33,6 +33,7 @@
 </template>
 
 <script>
-// 路径和多边形动画
-export default {}
+export default {
+    alias: '路径和多边形动画',
+}
 </script>
