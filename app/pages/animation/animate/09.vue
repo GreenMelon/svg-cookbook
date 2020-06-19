@@ -38,8 +38,9 @@
 </template>
 
 <script>
-// 动画过渡值
 export default {
+    alias: '动画过渡值',
+
     data() {
         return {
             options: [

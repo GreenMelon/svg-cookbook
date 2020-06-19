@@ -51,21 +51,21 @@ svg {
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                values: [
-                    'xMinYMin',
-                    'xMinYMid',
-                    'xMinYMax',
-                    'xMidYMin',
-                    'xMidYMid',
-                    'xMidYMax',
-                    'xMaxYMin',
-                    'xMaxYMid',
-                    'xMaxYMax',
-                ],
-            }
-        },
-    }
+export default {
+    data() {
+        return {
+            values: [
+                'xMinYMin',
+                'xMinYMid',
+                'xMinYMax',
+                'xMidYMin',
+                'xMidYMid',
+                'xMidYMax',
+                'xMaxYMin',
+                'xMaxYMid',
+                'xMaxYMax',
+            ],
+        }
+    },
+}
 </script>

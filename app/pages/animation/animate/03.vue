@@ -25,6 +25,7 @@
 </template>
 
 <script>
-// end 属性
-export default {}
+export default {
+    alias: 'end 属性',
+}
 </script>

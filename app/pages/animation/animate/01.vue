@@ -24,6 +24,7 @@
 </template>
 
 <script>
-// 简单的宽度变化
-export default {}
+export default {
+    alias: '简单的宽度变化',
+}
 </script>
