@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import alphabets from './alphabets';
+import alphabets from './ignore-alphabets';
 
 export default {
     components: {
