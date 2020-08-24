@@ -1,5 +1,5 @@
 <template>
-    <main>index</main>
+    <main>{{ GLOBAL }}</main>
 </template>
 
 <script>
