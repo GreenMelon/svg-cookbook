@@ -7,6 +7,4 @@ if (result.error) {
   
 const { parsed: envs } = result;
 
-console.log(envs);
-
 module.exports = envs;

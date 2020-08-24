@@ -5,6 +5,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+// const env = require('./build/env');
 
 module.exports = {
     // 入口配置
@@ -106,8 +107,10 @@ module.exports = {
         }
     },
     plugins: [
-        new webpack.DefinePlugin({
-            ...require('./build/env')
-        }), 
+        // new webpack.DefinePlugin({
+        //     'process.env': {
+        //         ...env,
+        //     },
+        // }),
     ],
 };
