@@ -105,5 +105,9 @@ module.exports = {
             filter: path.join(__dirname, './app/filters'),
         }
     },
-    plugins: []
+    plugins: [
+        new webpack.DefinePlugin({
+            ...require('./build/env')
+        }), 
+    ],
 };
