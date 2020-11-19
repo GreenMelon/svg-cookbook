@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/GreenMelon/svg-cookbook#readme",
   "dependencies": {
-    "jquery": "3.3.1",
+    "jquery": "3.5.0",
     "lottie-web": "5.5.7",
     "vue": "^2.2.1",
     "vue-router": "^2.3.0"
